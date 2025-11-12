@@ -1,7 +1,7 @@
 # Documentación Técnica Completa - SimpleBlog (Meridiano Blog)
 
 **Fecha de Documentación:** 12 de Noviembre de 2025  
-**Versión del Proyecto:** 1.2  
+**Versión del Proyecto:** 1.2 - MeridianoBlog SEO & Open Graph Update
 **Rama Actual:** `mmb`  
 **Rama Principal:** `main`
 
@@ -10,17 +10,145 @@
 ## 📋 Tabla de Contenidos
 
 1. [Descripción General](#descripción-general)
-2. [Estructura de Directorios](#estructura-de-directorios)
-3. [Descripción de Archivos](#descripción-de-archivos)
-4. [Tecnologías Empleadas](#tecnologías-empleadas)
-5. [Dependencias y Librerías](#dependencias-y-librerías)
-6. [Configuración y Variables](#configuración-y-variables)
-7. [Estado del Desarrollo](#estado-del-desarrollo)
-8. [Instrucciones de Uso](#instrucciones-de-uso)
+2. [Cambios en v1.2](#cambios-en-v12---meridianoblog-seo--open-graph-update)
+3. [Estructura de Directorios](#estructura-de-directorios)
+4. [Descripción de Archivos](#descripción-de-archivos)
+5. [Tecnologías Empleadas](#tecnologías-empleadas)
+6. [Dependencias y Librerías](#dependencias-y-librerías)
+7. [Configuración y Variables](#configuración-y-variables)
+8. [Estado del Desarrollo](#estado-del-desarrollo)
+9. [Instrucciones de Uso](#instrucciones-de-uso)
 
 ---
 
-## 📖 Descripción General
+## 🎯 Cambios en v1.2 - MeridianoBlog SEO & Open Graph Update
+
+### Resumen General
+La versión 1.2 implementa **metadatos SEO y Open Graph completos** en todas las páginas HTML del proyecto para mejorar:
+- Posicionamiento en motores de búsqueda (SEO)
+- Vistas previas correctas en redes sociales (Open Graph)
+- Compatibilidad con scrapers de redes sin JavaScript
+
+### Cambios Principales Realizados
+
+#### 1. **Actualización de Meta Tags SEO en Todas las Páginas**
+
+Todas las páginas HTML ahora incluyen:
+- `<meta name="description">` con contenido específico por página
+- Atributo `lang="es"` en la etiqueta `<html>` (cambiado de `lang="en"`)
+- Meta tags Open Graph completos (og:type, og:title, og:description, og:image, og:url, og:site_name)
+- Twitter Cards configuradas (twitter:card, twitter:title, twitter:description, twitter:image)
+
+#### 2. **Metadatos Open Graph Configurados**
+
+Cada página ahora contiene las siguientes metaetiquetas:
+
+```html
+<meta property="og:type" content="...">
+<meta property="og:title" content="...">
+<meta property="og:description" content="...">
+<meta property="og:image" content="https://meridiano.com/assets/img/...">
+<meta property="og:url" content="https://meridiano.com/...">
+<meta property="og:site_name" content="Meridiano Blog">
+```
+
+#### 3. **Twitter Cards Configuradas**
+
+Todas las páginas incluyen Twitter Cards de tipo `summary_large_image`:
+
+```html
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="...">
+<meta name="twitter:description" content="...">
+<meta name="twitter:image" content="https://meridiano.com/assets/img/...">
+```
+
+#### 4. **URLs Base Configuradas**
+
+Todos los metadatos Open Graph y Twitter Cards ahora apuntan a **`https://meridiano.com`** como dominio base.
+
+### Cambios por Página
+
+#### **index.html**
+- **Título:** "Meridiano Blog · Análisis de béisbol del Caribe"
+- **Descripción:** "Meridiano Blog es un sitio dedicado al análisis del béisbol del Caribe y de las Grandes Ligas, con énfasis en la Liga Venezolana de Béisbol Profesional y otras ligas invernales."
+- **og:type:** `website` (página principal)
+- **og:image:** `https://meridiano.com/assets/img/home-bg.jpg`
+- **Idioma:** `lang="es"`
+
+#### **yadier-molina-magallanes-segunda-etapa.html**
+- **Título:** "Yadier Molina y su ruta caribeña: el regreso del Capitán al Magallanes"
+- **Descripción:** "Análisis del regreso de Yadier Molina al Magallanes, su trayectoria reciente en ligas caribeñas y su evolución como dirigente de élite."
+- **og:type:** `article` (tipo artículo)
+- **og:image:** `https://meridiano.com/assets/img/post-bg.jpg`
+- **Idioma:** `lang="es"`
+- **Scripts incluidos:** `js/gtag.js` para Google Analytics
+
+#### **post.html**
+- **Título:** "Ejemplo de entrada · Plantilla de artículo en Meridiano Blog"
+- **Descripción:** "Plantilla de artículo de Meridiano Blog que muestra el formato de lectura, las imágenes y la estructura de los textos largos."
+- **og:type:** `article`
+- **og:image:** `https://meridiano.com/assets/img/post-sample-image.jpg`
+- **Idioma:** `lang="es"`
+
+#### **about.html**
+- **Título:** "Sobre Meridiano Blog · Acerca del proyecto y su autor"
+- **Descripción:** "Información sobre Meridiano Blog, su enfoque en el béisbol del Caribe y el perfil del autor que firma los análisis y artículos de opinión."
+- **og:type:** `website`
+- **og:image:** `https://meridiano.com/assets/img/about-bg.jpg`
+- **Idioma:** `lang="es"`
+
+#### **contact.html**
+- **Título:** "Contacto · Escribe a Meridiano Blog"
+- **Descripción:** "Formulario de contacto de Meridiano Blog para consultas, comentarios y propuestas relacionadas con el béisbol del Caribe y sus contenidos."
+- **og:type:** `website`
+- **og:image:** `https://meridiano.com/assets/img/contact-bg.jpg`
+- **Idioma:** `lang="es"`
+
+### Archivos Modificados
+
+- ✅ `index.html` - 18 líneas agregadas
+- ✅ `yadier-molina-magallanes-segunda-etapa.html` - 18 líneas agregadas (preserva gtag.js)
+- ✅ `post.html` - 18 líneas agregadas
+- ✅ `about.html` - 18 líneas agregadas
+- ✅ `contact.html` - 18 líneas agregadas
+
+**Total de cambios:** 75 líneas agregadas, 15 líneas modificadas
+
+### Impacto
+
+#### ✅ Mejoras en SEO
+- Títulos únicos y descriptivos por página
+- Descripciones meta específicas para cada contenido
+- Metadatos estructurados para buscadores
+
+#### ✅ Mejoras en Redes Sociales
+- Al compartir un link en X/Twitter, Facebook o WhatsApp, se muestra:
+  - Título del artículo/página
+  - Descripción breve relevante
+  - Imagen de vista previa
+- Facilita viralización y engagement
+
+#### ✅ Compatibilidad
+- Los scrapers de redes sociales leen metadatos sin depender de JavaScript
+- Funciona correctamente con bots de indexación
+- Compatible con todas las redes sociales principales
+
+#### ✅ Arquitectura Preservada
+- Sin cambios en `partials/header.html` ni `partials/footer.html`
+- Sin cambios en la lógica JavaScript de carga dinámica
+- Sistema visual de header/footer reutilizable se mantiene intacto
+
+### Commits Generados
+
+1. **Commit 1:** `00c619c` - MeridianoBlog v1.2: Agregar metadatos SEO y Open Graph a todas las páginas HTML
+   - Agregó todos los metadatos básicos con `TU_DOMINIO` como marcador
+
+2. **Commit 2:** `764852b` - Reemplazar TU_DOMINIO por meridiano.com en todos los metadatos Open Graph
+   - Reemplazó todas las instancias de `TU_DOMINIO` por `meridiano.com`
+   - 15 referencias actualizadas
+
+---
 
 ### Propósito del Proyecto
 
@@ -401,28 +529,40 @@ Objetivo: Manejar la navegación flotante en scroll
 
 ### Meta Tags Configurados
 
-Todos los archivos HTML contienen:
+Todos los archivos HTML ahora contienen:
 
 ```html
+<!-- Meta Tags SEO -->
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-<meta name="description" content="" />
+<meta name="description" content="Descripción específica de cada página" />
 <meta name="author" content="" />
+
+<!-- Título Único por Página -->
+<title>Título específico de la página</title>
+
+<!-- Open Graph para Redes Sociales -->
+<meta property="og:type" content="website|article">
+<meta property="og:title" content="...">
+<meta property="og:description" content="...">
+<meta property="og:image" content="https://meridiano.com/assets/img/...">
+<meta property="og:url" content="https://meridiano.com/...">
+<meta property="og:site_name" content="Meridiano Blog">
+
+<!-- Twitter Cards -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="...">
+<meta name="twitter:description" content="...">
+<meta name="twitter:image" content="https://meridiano.com/assets/img/...">
 ```
 
-**Estado:** Los campos `description` y `author` están vacíos en la mayoría de archivos, excepción en `yadier-molina-magallanes-segunda-etapa.html`:
-```html
-<meta name="description" content="Yadier Molina regresa al Magallanes para su segunda etapa como dirigente" />
-```
-
-### Títulos de Página
-
-Todos los archivos usan:
-```html
-<title>Meridiano Blog</title>
-```
-
-**Nota:** No personalizado por página individual
+**Cambios Clave:**
+- ✅ `lang="es"` en lugar de `lang="en"`
+- ✅ Descripciones meta específicas (no vacías)
+- ✅ Títulos únicos y descriptivos
+- ✅ Metadatos Open Graph completos con URLs absolutas
+- ✅ Twitter Cards configuradas
+- ✅ Dominio centralizado: `meridiano.com`
 
 ### Colores Primarios (Bootstrap Variables)
 
@@ -453,9 +593,11 @@ Todos los archivos usan:
 | Artículos | ⚠️ Parcial | Un artículo real (Yadier Molina), dos placeholders (post.html, about.html) |
 | Formulario de Contacto | ⚠️ Incompleto | Forma visual presente pero no funcional (requiere token API SB Forms) |
 | Navegación | ⚠️ Desactivada | Código presente pero comentado en todos los archivos |
-| SEO | ⚠️ Mínimo | Meta descriptions vacías excepto un archivo |
+| SEO | ✅ Completado | Meta descriptions específicas, títulos únicos, Open Graph configurado (v1.2) |
+| Open Graph | ✅ Completado | Todas las páginas incluyen metadatos Open Graph y Twitter Cards (v1.2) |
 | Footer | ✅ Completado | Links a redes sociales funcionales (placeholders) |
 | Refactorización estructural | ✅ Completado | Header y footer extraídos a partials/header.html y partials/footer.html, cargados dinámicamente en cada página |
+| Idioma | ✅ Completado | Cambiado a `lang="es"` en todas las páginas (v1.2) |
 
 ### Archivos Incompletos o con Marcadores de TODO
 
@@ -550,8 +692,22 @@ data-sb-form-api-token="TU_TOKEN_AQUI"
 - **Rama Principal:** main
 - **Plataforma:** GitHub
 
-### Historial de Commits
-No se encontró información válida o pública al respecto sobre el historial de commits específico, ya que solo se proporcionó acceso al código actual.
+### Historial de Commits Recientes (v1.2)
+
+1. **764852b** - `Reemplazar TU_DOMINIO por meridiano.com en todos los metadatos Open Graph`
+   - 5 archivos modificados
+   - 15 referencias actualizadas a `meridiano.com`
+
+2. **00c619c** - `MeridianoBlog v1.2: Agregar metadatos SEO y Open Graph a todas las páginas HTML`
+   - 5 archivos modificados
+   - 75 líneas agregadas
+   - 15 líneas modificadas
+
+3. **f5309ff** - `Actualización integral: documentación técnica, cambios en HTML y nuevos archivos`
+   - Rama: `origin/mmb`
+
+4. **dc70629** - `Eliminar post 'Man must explore' de la home page`
+   - Rama: `origin/main`
 
 ---
 
@@ -574,8 +730,11 @@ No se encontró información válida o pública al respecto sobre el historial d
 
 ### SEO
 
-- ⚠️ Meta descriptions incompletas
-- ⚠️ Etiquetas h1 bien estructuradas
+- ✅ Meta descriptions específicas y completas por página (v1.2)
+- ✅ Etiquetas h1 bien estructuradas
+- ✅ Open Graph metadatos configurados (v1.2)
+- ✅ Twitter Cards implementadas (v1.2)
+- ✅ Idioma HTML configurado a `lang="es"` (v1.2)
 - ⚠️ Sitemap.xml no presente
 - ⚠️ robots.txt no presente
 - ✅ Estructura HTML semántica
@@ -592,11 +751,28 @@ El proyecto utiliza tecnologías modernas pero compatibles:
 
 ## ❓ Preguntas Frecuentes y Resolución de Problemas
 
+## ❓ Preguntas Frecuentes y Resolución de Problemas
+
+### ¿Qué cambios se realizaron en v1.2?
+Se agregaron **metadatos SEO y Open Graph completos** a todas las páginas HTML para mejorar el posicionamiento en buscadores y las vistas previas en redes sociales. Incluye:
+- Títulos únicos y descriptivos
+- Descripciones meta específicas
+- Metadatos Open Graph (og:type, og:title, og:description, og:image, og:url, og:site_name)
+- Twitter Cards (twitter:card, twitter:title, twitter:description, twitter:image)
+- Idioma cambiado a `lang="es"`
+
+### ¿Cómo se ven las vistas previas en redes sociales?
+Ahora, al compartir un link en X/Twitter, Facebook o WhatsApp, se muestra automáticamente:
+- **Título:** Específico de cada página (ej: "Yadier Molina y su ruta caribeña...")
+- **Descripción:** Resumen breve del contenido
+- **Imagen:** Imagen de vista previa relevante (ej: post-bg.jpg para artículos)
+- **Dominio:** meridiano.com
+
 ### ¿Por qué el formulario de contacto no funciona?
 El formulario requiere un token API de SB Forms. Sin él, solo muestra la interfaz pero no procesa datos.
 
 ### ¿Cómo agrego más artículos?
-Crea nuevos archivos `.html` con la estructura de `yadier-molina-magallanes-segunda-etapa.html` y actualiza los previews en `index.html`.
+Crea nuevos archivos `.html` con la estructura de `yadier-molina-magallanes-segunda-etapa.html` y actualiza los previews en `index.html`. Asegúrate de incluir los metadatos Open Graph específicos del nuevo artículo.
 
 ### ¿Por qué la navegación está oculta?
 El código de navegación está comentado en todos los archivos. Descommentalo para habilitarla.
@@ -604,16 +780,42 @@ El código de navegación está comentado en todos los archivos. Descommentalo p
 ### ¿Necesito Node.js o npm?
 No. Este es un proyecto 100% estático, no requiere build tools ni dependencias de npm.
 
+### ¿Cómo configuro el dominio final?
+Si quieres cambiar de `meridiano.com` a otro dominio, busca y reemplaza en todos los archivos HTML:
+- `og:url` 
+- `og:image`
+- `twitter:image`
+
 ---
 
 ## 📌 Notas Finales
 
 Este proyecto es un **blog estático moderno enfocado en contenido deportivo de béisbol**, construido con tecnologías web estándar. La arquitectura es simple y directa, ideal para un blog personal o de nicho temático. 
 
-El proyecto se encuentra en etapa de **desarrollo y personalización**, con elementos de plantilla todavía presentes. Una vez completada la configuración (tokens de API, contenido real, navegación habilitada), será un sitio completamente funcional y profesional.
+### Estado Actual (v1.2)
 
-**Última actualización de documentación:** 12 de Noviembre de 2025
+El proyecto se encuentra en etapa de **desarrollo avanzado con optimización SEO completa**, incluyendo:
+
+- ✅ Estructura HTML semántica y responsiva
+- ✅ Diseño moderno con Bootstrap 5
+- ✅ Metadatos SEO y Open Graph configurados
+- ✅ Soporte para redes sociales (Twitter, Facebook, WhatsApp)
+- ✅ Sistema de partials reutilizables (header/footer)
+- ✅ Carga dinámica de componentes visuales
+- ⚠️ Contenido real parcial (1 artículo completo, 2 placeholders)
+- ⚠️ Formulario de contacto requiere token API
+
+**Próximos pasos recomendados:**
+1. Completar contenido de páginas (about.html, post.html)
+2. Configurar SB Forms para formulario funcional
+3. Agregar más artículos sobre béisbol
+4. Crear sitemap.xml y robots.txt
+5. Habilitar navegación global
+6. Configurar Google Analytics con ID real
+7. Desplegar en servidor con dominio `meridiano.com`
+
+**Última actualización de documentación:** 12 de Noviembre de 2025 (v1.2)
 
 ---
 
-*Documentación generada por análisis integral de archivos del proyecto SimpleBlog*
+*Documentación actualizada para reflejar cambios de MeridianoBlog v1.2 - SEO & Open Graph Update*
