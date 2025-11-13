@@ -1,6 +1,6 @@
 <?php
 // Manifiesto de posts - Generado automáticamente por generate_manifest.php
-// Última actualización: 2025-11-13 15:28:52
+// Última actualización: 2025-11-13 21:05:16
 // No editar manualmente
 
 $posts = array (
@@ -54,6 +54,39 @@ $posts = array (
     'author' => 'Redacción Meridiano',
     'image' => 'https://www.meridiano.com//assets/img/puig-magallanes.jpg',
     'url' => 'https://www.meridiano.com//post/magallanes-mueve-el-tablero.php',
+  ),
+  'maximo-acosta-motor-acelera-tiburones-fecha-salida' => 
+  array (
+    'title' => 'Máximo Acosta, el motor que acelera a Tiburones… y que ya pone fecha de salida',
+    'subtitle' => 'El campocorto de Tiburones de La Guaira vive una última semana de alto impacto en la LVBP antes de adelantar su salida por motivos familiares y de visa.',
+    'category' => 'Venezuela',
+    'tags' => 
+    array (
+      0 => 'Máximo Acosta',
+      1 => 'Macuto',
+      2 => 'LVBP',
+      3 => 'Tiburones de La Guaira',
+    ),
+    'date' => '13 de noviembre de 2025',
+    'author' => 'Redacción Meridiano',
+    'image' => 'https://www.meridiano.com//assets/img/post-bg.jpg',
+    'url' => 'https://www.meridiano.com//post/maximo-acosta-motor-acelera-tiburones-fecha-salida.php',
+  ),
+  'post_plantilla' => 
+  array (
+    'title' => 'REEMPLAZAR_CON_TITULO_VISIBLE',
+    'subtitle' => 'REEMPLAZAR_CON_SUBTITULO_VISIBLE',
+    'category' => 'REEMPLAZAR_CON_CATEGORIA_1',
+    'tags' => 
+    array (
+      0 => 'REEMPLAZAR_CON_ETIQUETA_1',
+      1 => 'REEMPLAZAR_CON_ETIQUETA_2',
+      2 => 'REEMPLAZAR_CON_ETIQUETA_3',
+    ),
+    'date' => 'REEMPLAZAR_CON_FECHA_VISIBLE',
+    'author' => 'REEMPLAZAR_CON_AUTOR_VISIBLE',
+    'image' => 'https://www.meridiano.com//assets/img/REEMPLAZAR_CON_IMAGEN_FONDO',
+    'url' => 'https://www.meridiano.com//post/post_plantilla.php',
   ),
   'yadier-molina-magallanes-segunda-etapa' => 
   array (

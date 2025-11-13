@@ -5,6 +5,17 @@
                 <div class="col-md-10 col-lg-8 col-xl-7">
                     <!-- Post preview-->
                     <div class="post-preview">
+                        <a href="<?php echo POST_DIR; ?>maximo-acosta-motor-acelera-tiburones-fecha-salida.php">
+                            <h2 class="post-title">Máximo Acosta, el motor que acelera a Tiburones… y que ya pone fecha de salida</h2>
+                            <h3 class="post-subtitle">El campocorto de Tiburones de La Guaira vive una última semana de alto impacto en la LVBP antes de adelantar su salida por motivos familiares y de visa.</h3>
+                        </a>
+                        <p class="post-meta">
+                            Posted by
+                            <a href="#!">Redacción Meridiano</a>
+                            on 13 de noviembre de 2025
+                        </p>
+                    </div>
+                    <div class="post-preview">
                         <a href="<?php echo POST_DIR; ?>cuarta-semana-aprieta-zulia-mete-presion-la-guaira-responde-caribes-endereza-carretera.php">
                             <h2 class="post-title">La cuarta semana aprieta: Zulia mete presión, La Guaira responde y Caribes se endereza en la carretera</h2>
                             <h3 class="post-subtitle">Zulia aprieta en la cima, La Guaira responde y Caribes se endereza en la carretera en una cuarta semana que ya se juega a ritmo de round robin.</h3>

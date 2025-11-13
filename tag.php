@@ -7,7 +7,7 @@ $tag_name = $_GET['name'] ?? '';
 
 // Filtrar posts por etiqueta
 $filtered_posts = array_filter($posts, function($post) use ($tag_name) {
-    return in_array($tag_name, $post['tags']);
+    return in_array(strtolower($tag_name), array_map('strtolower', $post['tags']));
 });
 
 // Título de la página
