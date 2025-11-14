@@ -5,6 +5,50 @@
                 <div class="col-md-10 col-lg-8 col-xl-7">
                     <!-- Post preview-->
                     <div class="post-preview">
+                        <a href="<?php echo POST_DIR; ?>andretty-cordero-importado-yadier-pidio-respondio-tablazo.php">
+                            <h2 class="post-title">Andretty Cordero, el importado que Yadier pidió… y que respondió con un tablazo</h2>
+                            <h3 class="post-subtitle">El dominicano respondió al pedido de Yadier Molina con jonrón en su primer turno y se perfila como bate de impacto en el medio del orden de Magallanes.</h3>
+                        </a>
+                        <p class="post-meta">
+                            Posted by
+                            <a href="#!">Redacción Meridiano</a>
+                            on 14 de noviembre de 2025
+                        </p>
+                    </div>
+                    <div class="post-preview">
+                        <a href="<?php echo POST_DIR; ?>henry-blanco-dos-juegos-al-dique-como-se-administra-un-clubhouse-sin-su-piloto.php">
+                            <h2 class="post-title">Henry Blanco, dos juegos al dique: cómo se administra un clubhouse sin su piloto</h2>
+                            <h3 class="post-subtitle">La suspensión de dos juegos y multa a Henry Blanco llega en una semana de tabla comprimida y obliga a Bravos a administrar bullpen y clubhouse sin su piloto.</h3>
+                        </a>
+                        <p class="post-meta">
+                            Posted by
+                            <a href="#!">Redacción Meridiano</a>
+                            on 14 de noviembre de 2025
+                        </p>
+                    </div>
+                    <div class="post-preview">
+                        <a href="<?php echo POST_DIR; ?>castillo-y-muzziotti-el-par-de-encendidos-que-trepo-a-las-aguilas-hasta-la-azotea.php">
+                            <h2 class="post-title">El presente: Zulia ya juega como equipo de punta</h2>
+                            <h3 class="post-subtitle">Alí Castillo y Simón Muzziotti lideran el ataque de las Águilas en una semana que las pegó a la cima, imponiendo hábitos de enero en noviembre.</h3>
+                        </a>
+                        <p class="post-meta">
+                            Posted by
+                            <a href="#!">Redacción Meridiano</a>
+                            on 15 de noviembre de 2025
+                        </p>
+                    </div>
+                    <div class="post-preview">
+                        <a href="<?php echo POST_DIR; ?>clasicos-mueven-aguja-noche-sardinas-volteo-tablero-cima-apreto.php">
+                            <h2 class="post-title">Clásicos que mueven la aguja: la noche en que Sardiñas volteó el tablero y la cima se apretó</h2>
+                            <h3 class="post-subtitle">Un jonrón de Luis Sardiñas en el 9.º inning volteó el Clásico Caracas–Magallanes y dejó la cima de la LVBP apretada, con Zulia respirando en la nuca.</h3>
+                        </a>
+                        <p class="post-meta">
+                            Posted by
+                            <a href="#!">Redacción Meridiano</a>
+                            on 14 de noviembre de 2025
+                        </p>
+                    </div>
+                    <div class="post-preview">
                         <a href="<?php echo POST_DIR; ?>maximo-acosta-motor-acelera-tiburones-fecha-salida.php">
                             <h2 class="post-title">Máximo Acosta, el motor que acelera a Tiburones… y que ya pone fecha de salida</h2>
                             <h3 class="post-subtitle">El campocorto de Tiburones de La Guaira vive una última semana de alto impacto en la LVBP antes de adelantar su salida por motivos familiares y de visa.</h3>

@@ -1,9 +1,69 @@
 <?php
 // Manifiesto de posts - Generado automáticamente por generate_manifest.php
-// Última actualización: 2025-11-13 21:05:16
+// Última actualización: 2025-11-14 16:12:54
 // No editar manualmente
 
 $posts = array (
+  'andretty-cordero-importado-yadier-pidio-respondio-tablazo' => 
+  array (
+    'title' => 'Andretty Cordero, el importado que Yadier pidió… y que respondió con un tablazo',
+    'subtitle' => 'El dominicano respondió al pedido de Yadier Molina con jonrón en su primer turno y se perfila como bate de impacto en el medio del orden de Magallanes.',
+    'category' => 'Venezuela',
+    'tags' => 
+    array (
+      0 => 'Andretty Cordero',
+      1 => 'Yadier Molina',
+      2 => 'Yasiel Puig',
+      3 => 'Sardiñas',
+      4 => 'Suisbel',
+      5 => 'Alfonzo Jr.',
+      6 => 'Valencia',
+    ),
+    'date' => '14 de noviembre de 2025',
+    'author' => 'Redacción Meridiano',
+    'image' => 'https://www.meridiano.com//assets/img/post-bg.jpg',
+    'url' => 'https://www.meridiano.com//post/andretty-cordero-importado-yadier-pidio-respondio-tablazo.php',
+  ),
+  'castillo-y-muzziotti-el-par-de-encendidos-que-trepo-a-las-aguilas-hasta-la-azotea' => 
+  array (
+    'title' => 'Castillo y Muzziotti, el par de encendidos que trepó a las Águilas hasta la azotea',
+    'subtitle' => 'El 1–2 de Castillo y Muzziotti puso ritmo de enero en el Zulia y trepó a las Águilas hasta la cima, con contacto, tráfico en bases y bullpen oportuno.',
+    'category' => 'Venezuela',
+    'tags' => 
+    array (
+      0 => 'Alí Castillo',
+      1 => 'Simón Muzziotti',
+      2 => 'Semana de La Chinita',
+      3 => 'Clásico de La Chinita',
+      4 => 'Juega En Línea',
+      5 => 'Líder en deportes',
+      6 => 'El Emergente',
+      7 => 'El Universal',
+    ),
+    'date' => '14 de noviembre de 2025',
+    'author' => 'Redacción Meridiano',
+    'image' => 'https://www.meridiano.com//assets/img/post-bg.jpg',
+    'url' => 'https://www.meridiano.com//post/castillo-y-muzziotti-el-par-de-encendidos-que-trepo-a-las-aguilas-hasta-la-azotea.php',
+  ),
+  'clasicos-mueven-aguja-noche-sardinas-volteo-tablero-cima-apreto' => 
+  array (
+    'title' => 'Clásicos que mueven la aguja: la noche en que Sardiñas volteó el tablero y la cima se apretó',
+    'subtitle' => 'Un jonrón de Luis Sardiñas en el 9.º inning volteó el Clásico Caracas–Magallanes y dejó la cima de la LVBP apretada, con Zulia respirando en la nuca.',
+    'category' => 'Venezuela',
+    'tags' => 
+    array (
+      0 => 'Henry Blanco',
+      1 => 'Quijada',
+      2 => 'Quintana',
+      3 => 'BCV',
+      4 => 'El Emergente',
+      5 => 'Juega En Línea',
+    ),
+    'date' => '14 de noviembre de 2025',
+    'author' => 'Redacción Meridiano',
+    'image' => 'https://www.meridiano.com//assets/img/post-bg.jpg',
+    'url' => 'https://www.meridiano.com//post/clasicos-mueven-aguja-noche-sardinas-volteo-tablero-cima-apreto.php',
+  ),
   'cuarta-semana-aprieta-zulia-mete-presion-la-guaira-responde-caribes-endereza-carretera' => 
   array (
     'title' => 'La cuarta semana aprieta: Zulia mete presión, La Guaira responde y Caribes se endereza en la carretera',
@@ -37,6 +97,23 @@ $posts = array (
     'author' => 'Redacción Meridiano',
     'image' => 'https://www.meridiano.com//assets/img/gleyber-torres-leones.webp',
     'url' => 'https://www.meridiano.com//post/gleyber-torres-leones.php',
+  ),
+  'henry-blanco-dos-juegos-al-dique-como-se-administra-un-clubhouse-sin-su-piloto' => 
+  array (
+    'title' => 'Henry Blanco, dos juegos al dique: cómo se administra un clubhouse sin su piloto',
+    'subtitle' => 'La suspensión de dos juegos y multa a Henry Blanco llega en una semana de tabla comprimida y obliga a Bravos a administrar bullpen y clubhouse sin su piloto.',
+    'category' => 'Venezuela',
+    'tags' => 
+    array (
+      0 => 'Henry Blanco',
+      1 => 'Quijada',
+      2 => 'Quintana',
+      3 => 'BCV',
+    ),
+    'date' => '14 de noviembre de 2025',
+    'author' => 'Redacción Meridiano',
+    'image' => 'https://www.meridiano.com//assets/img/post-bg.jpg',
+    'url' => 'https://www.meridiano.com//post/henry-blanco-dos-juegos-al-dique-como-se-administra-un-clubhouse-sin-su-piloto.php',
   ),
   'magallanes-mueve-el-tablero' => 
   array (
