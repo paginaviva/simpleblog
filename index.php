@@ -5,14 +5,58 @@
                 <div class="col-md-10 col-lg-8 col-xl-7">
                     <!-- Post preview-->
                     <div class="post-preview">
-                        <a href="<?php echo POST_DIR; ?>cofradia-tres-jonrones-lvbp-22-noches-extraordinarias-mito-cuarto-batazo.php" target="_blank">
-                            <h2 class="post-title">La cofradía de los tres jonrones en la LVBP: 22 noches extraordinarias y el mito del cuarto batazo</h2>
+                        <a href="<?php echo POST_DIR; ?>tres-jonrones-21-heroes-leyenda-pendiente-hazana-casi-nadie-logra-venezuela.php" target="_blank">
+                            <h2 class="post-title">Tres jonrones, 21 héroes y una leyenda pendiente: la hazaña que casi nadie logra en Venezuela</h2>
                             <h3 class="post-subtitle">Solo 22 juegos de tres jonrones en casi ocho décadas de LVBP, coronados por la gesta de Wilson García en 2025 y el santo grial pendiente del cuarto cuadrangular.</h3>
                         </a>
                         <p class="post-meta">
                             Posted by
                             <a href="#!">Redacción Meridiano</a>
                             on 15 de noviembre de 2025
+                        </p>
+                    </div>
+                    <div class="post-preview">
+                        <a href="<?php echo POST_DIR; ?>cinco-equipos-1-5-juegos-cima-respiracion-asistida.php" target="_blank">
+                            <h2 class="post-title">Cinco equipos en 1.5 juegos: la cima con respiración asistida</h2>
+                            <h3 class="post-subtitle">Águilas, Bravos, Caribes, Tigres y Leones amanecen en 1.5 juegos, con una cima que cambia de dueño según quién use mejor la palanca y los cruces directos.</h3>
+                        </a>
+                        <p class="post-meta">
+                            Posted by
+                            <a href="#!">Redacción Meridiano</a>
+                            on 16 de noviembre de 2025
+                        </p>
+                    </div>
+                    <div class="post-preview">
+                        <a href="<?php echo POST_DIR; ?>jadher-areinamo-novato-volante-lineup-ranking-conversacion-grande.php" target="_blank">
+                            <h2 class="post-title">Jadher Areinamo, un novato al volante del lineup: del “ranking” a la conversación grande</h2>
+                            <h3 class="post-subtitle">El sub-23 de Tiburones se trepa al #1 del Ranking Líder con poder metódico y volumen útil que lo mete de lleno en la conversación grande de la LVBP.</h3>
+                        </a>
+                        <p class="post-meta">
+                            Posted by
+                            <a href="#!">Redacción Meridiano</a>
+                            on 16 de noviembre de 2025
+                        </p>
+                    </div>
+                    <div class="post-preview">
+                        <a href="<?php echo POST_DIR; ?>noche-apreto-campeonato-bravos-asalta-cima-caribes-repite-nave-respira-lara-baja-volumen-caracas.php" target="_blank">
+                            <h2 class="post-title">La noche que apretó el campeonato: Bravos asalta la cima, Caribes repite, la Nave respira y Lara le baja el volumen a Caracas</h2>
+                            <h3 class="post-subtitle">La jornada del 15/11 movió la tabla: Bravos iguala la cima, Caribes repite ante La Guaira, Magallanes reacciona y Lara frena al Caracas en una LVBP que ya huele a enero.</h3>
+                        </a>
+                        <p class="post-meta">
+                            Posted by
+                            <a href="#!">Redacción Meridiano</a>
+                            on 16 de noviembre de 2025
+                        </p>
+                    </div>
+                    <div class="post-preview">
+                        <a href="<?php echo POST_DIR; ?>henry-blanco-suspendido-dos-juegos-temple-lider-pelea-punta.php" target="_blank">
+                            <h2 class="post-title">Henry Blanco suspendido: dos juegos para probar el temple de un líder que pelea la punta</h2>
+                            <h3 class="post-subtitle">La LVBP castiga con dos juegos a Henry Blanco y Bravos debe responder sin su mánager en plena pelea por la cima de una tabla apretada.</h3>
+                        </a>
+                        <p class="post-meta">
+                            Posted by
+                            <a href="#!">Redacción Meridiano</a>
+                            on 16 de noviembre de 2025
                         </p>
                     </div>
                     <div class="post-preview">

@@ -1,6 +1,6 @@
 <?php
 // Manifiesto de posts - Generado automáticamente por generate_manifest.php
-// Última actualización: 2025-11-15 12:28:30
+// Última actualización: 2025-11-16 07:52:51
 // No editar manualmente
 
 $posts = array (
@@ -45,6 +45,26 @@ $posts = array (
     'image' => 'https://www.meridiano.com//assets/img/post-bg.jpg',
     'url' => 'https://www.meridiano.com//post/castillo-y-muzziotti-el-par-de-encendidos-que-trepo-a-las-aguilas-hasta-la-azotea.php',
   ),
+  'cinco-equipos-1-5-juegos-cima-respiracion-asistida' => 
+  array (
+    'title' => 'Cinco equipos en 1.5 juegos: la cima con respiración asistida',
+    'subtitle' => 'Águilas, Bravos, Caribes, Tigres y Leones amanecen en 1.5 juegos, con una cima que cambia de dueño según quién use mejor la palanca y los cruces directos.',
+    'category' => 'Venezuela',
+    'tags' => 
+    array (
+      0 => 'LVBP',
+      1 => 'Águilas del Zulia',
+      2 => 'Bravos de Margarita',
+      3 => 'Caribes de Anzoátegui',
+      4 => 'Tigres de Aragua',
+      5 => 'Leones del Caracas',
+      6 => 'Luis Aparicio',
+    ),
+    'date' => '16 de noviembre de 2025',
+    'author' => 'Redacción Meridiano',
+    'image' => 'https://www.meridiano.com//assets/img/post-bg.jpg',
+    'url' => 'https://www.meridiano.com//post/cinco-equipos-1-5-juegos-cima-respiracion-asistida.php',
+  ),
   'clasicos-mueven-aguja-noche-sardinas-volteo-tablero-cima-apreto' => 
   array (
     'title' => 'Clásicos que mueven la aguja: la noche en que Sardiñas volteó el tablero y la cima se apretó',
@@ -63,48 +83,6 @@ $posts = array (
     'author' => 'Redacción Meridiano',
     'image' => 'https://www.meridiano.com//assets/img/post-bg.jpg',
     'url' => 'https://www.meridiano.com//post/clasicos-mueven-aguja-noche-sardinas-volteo-tablero-cima-apreto.php',
-  ),
-  'cofradia-tres-jonrones-lvbp-22-noches-extraordinarias-mito-cuarto-batazo' => 
-  array (
-    'title' => 'La cofradía de los tres jonrones en la LVBP: 22 noches extraordinarias y el mito del cuarto batazo',
-    'subtitle' => 'Solo 22 juegos de tres jonrones en casi ocho décadas de LVBP, coronados por la gesta de Wilson García en 2025 y el santo grial pendiente del cuarto cuadrangular.',
-    'category' => 'Venezuela',
-    'tags' => 
-    array (
-      0 => 'Wilson García',
-      1 => 'Bill Taylor',
-      2 => 'Stanley Jok',
-      3 => 'Jim Pendleton',
-      4 => 'Ken Harrelson',
-      5 => 'Jacinto Hernández',
-      6 => 'Bob Darwin',
-      7 => 'Larry Parrish',
-      8 => 'Tomás Pérez',
-      9 => 'Pedro Castellano',
-      10 => 'Jason Lane',
-      11 => 'Robert Pérez',
-      12 => 'Eliézer Alfonzo',
-      13 => 'Richard Hidalgo',
-      14 => 'Danny Dorn',
-      15 => 'Scott Van Slyke',
-      16 => 'Javier Herrera',
-      17 => 'Alex Cabrera',
-      18 => 'Mario Lissón',
-      19 => 'Teodoro Martínez',
-      20 => 'Carlos Castro',
-      21 => 'Russell Rac',
-      22 => 'Cleiverth Pérez',
-      23 => 'Robinson Hernández',
-      24 => 'Luis Aparicio "El Grande"',
-      25 => 'Alejandro Borges',
-      26 => 'Maracaibo',
-      27 => 'Macuto',
-      28 => 'Estadio Universitario',
-    ),
-    'date' => '15 de noviembre de 2025',
-    'author' => 'Redacción Meridiano',
-    'image' => 'https://www.meridiano.com//assets/img/post-bg.jpg',
-    'url' => 'https://www.meridiano.com//post/cofradia-tres-jonrones-lvbp-22-noches-extraordinarias-mito-cuarto-batazo.php',
   ),
   'cuarta-semana-aprieta-zulia-mete-presion-la-guaira-responde-caribes-endereza-carretera' => 
   array (
@@ -140,22 +118,37 @@ $posts = array (
     'image' => 'https://www.meridiano.com//assets/img/gleyber-torres-leones.webp',
     'url' => 'https://www.meridiano.com//post/gleyber-torres-leones.php',
   ),
-  'henry-blanco-dos-juegos-al-dique-como-se-administra-un-clubhouse-sin-su-piloto' => 
+  'henry-blanco-suspendido-dos-juegos-temple-lider-pelea-punta' => 
   array (
-    'title' => 'Henry Blanco, dos juegos al dique: cómo se administra un clubhouse sin su piloto',
-    'subtitle' => 'La suspensión de dos juegos y multa a Henry Blanco llega en una semana de tabla comprimida y obliga a Bravos a administrar bullpen y clubhouse sin su piloto.',
+    'title' => 'Henry Blanco suspendido: dos juegos para probar el temple de un líder que pelea la punta',
+    'subtitle' => 'La LVBP castiga con dos juegos a Henry Blanco y Bravos debe responder sin su mánager en plena pelea por la cima de una tabla apretada.',
     'category' => 'Venezuela',
     'tags' => 
     array (
       0 => 'Henry Blanco',
-      1 => 'Quijada',
-      2 => 'Quintana',
-      3 => 'BCV',
+      1 => 'Maracaibo',
+      2 => 'Monumental',
+      3 => 'Margarita',
     ),
-    'date' => '14 de noviembre de 2025',
+    'date' => '16 de noviembre de 2025',
     'author' => 'Redacción Meridiano',
     'image' => 'https://www.meridiano.com//assets/img/post-bg.jpg',
-    'url' => 'https://www.meridiano.com//post/henry-blanco-dos-juegos-al-dique-como-se-administra-un-clubhouse-sin-su-piloto.php',
+    'url' => 'https://www.meridiano.com//post/henry-blanco-suspendido-dos-juegos-temple-lider-pelea-punta.php',
+  ),
+  'jadher-areinamo-novato-volante-lineup-ranking-conversacion-grande' => 
+  array (
+    'title' => 'Jadher Areinamo, un novato al volante del lineup: del “ranking” a la conversación grande',
+    'subtitle' => 'El sub-23 de Tiburones se trepa al #1 del Ranking Líder con poder metódico y volumen útil que lo mete de lleno en la conversación grande de la LVBP.',
+    'category' => 'Venezuela',
+    'tags' => 
+    array (
+      0 => 'Jadher Areinamo',
+      1 => 'Líder de Bateo',
+    ),
+    'date' => '16 de noviembre de 2025',
+    'author' => 'Redacción Meridiano',
+    'image' => 'https://www.meridiano.com//assets/img/post-bg.webp',
+    'url' => 'https://www.meridiano.com//post/jadher-areinamo-novato-volante-lineup-ranking-conversacion-grande.php',
   ),
   'luis-pena-dominicano-ponches-plan-gobierno-guaira' => 
   array (
@@ -254,6 +247,29 @@ $posts = array (
     'image' => 'https://www.meridiano.com//assets/img/post-bg.jpg',
     'url' => 'https://www.meridiano.com//post/maximo-acosta-motor-acelera-tiburones-fecha-salida.php',
   ),
+  'noche-apreto-campeonato-bravos-asalta-cima-caribes-repite-nave-respira-lara-baja-volumen-caracas' => 
+  array (
+    'title' => 'La noche que apretó el campeonato: Bravos asalta la cima, Caribes repite, la Nave respira y Lara le baja el volumen a Caracas',
+    'subtitle' => 'La jornada del 15/11 movió la tabla: Bravos iguala la cima, Caribes repite ante La Guaira, Magallanes reacciona y Lara frena al Caracas en una LVBP que ya huele a enero.',
+    'category' => 'Venezuela',
+    'tags' => 
+    array (
+      0 => 'Hernán Pérez',
+      1 => 'Balbino Fuenmayor',
+      2 => 'Yadier Molina',
+      3 => 'Renato Núñez',
+      4 => 'Yasiel Puig',
+      5 => 'Adrián Almeida',
+      6 => 'Maracaibo',
+      7 => 'Puerto La Cruz',
+      8 => 'Barquisimeto',
+      9 => 'Estadio Luis Aparicio',
+    ),
+    'date' => '16 de noviembre de 2025',
+    'author' => 'Redacción Meridiano',
+    'image' => 'https://www.meridiano.com//assets/img/post-bg.jpg',
+    'url' => 'https://www.meridiano.com//post/noche-apreto-campeonato-bravos-asalta-cima-caribes-repite-nave-respira-lara-baja-volumen-caracas.php',
+  ),
   'post_plantilla' => 
   array (
     'title' => 'REEMPLAZAR_CON_TITULO_VISIBLE',
@@ -269,6 +285,48 @@ $posts = array (
     'author' => 'REEMPLAZAR_CON_AUTOR_VISIBLE',
     'image' => 'https://www.meridiano.com//assets/img/REEMPLAZAR_CON_IMAGEN_FONDO',
     'url' => 'https://www.meridiano.com//post/post_plantilla.php',
+  ),
+  'tres-jonrones-21-heroes-leyenda-pendiente-hazana-casi-nadie-logra-venezuela' => 
+  array (
+    'title' => 'Tres jonrones, 21 héroes y una leyenda pendiente: la hazaña que casi nadie logra en Venezuela',
+    'subtitle' => 'Solo 22 juegos de tres jonrones en casi ocho décadas de LVBP, coronados por la gesta de Wilson García en 2025 y el santo grial pendiente del cuarto cuadrangular.',
+    'category' => 'Venezuela',
+    'tags' => 
+    array (
+      0 => 'Wilson García',
+      1 => 'Bill Taylor',
+      2 => 'Stanley Jok',
+      3 => 'Jim Pendleton',
+      4 => 'Ken Harrelson',
+      5 => 'Jacinto Hernández',
+      6 => 'Bob Darwin',
+      7 => 'Larry Parrish',
+      8 => 'Tomás Pérez',
+      9 => 'Pedro Castellano',
+      10 => 'Jason Lane',
+      11 => 'Robert Pérez',
+      12 => 'Eliézer Alfonzo',
+      13 => 'Richard Hidalgo',
+      14 => 'Danny Dorn',
+      15 => 'Scott Van Slyke',
+      16 => 'Javier Herrera',
+      17 => 'Alex Cabrera',
+      18 => 'Mario Lissón',
+      19 => 'Teodoro Martínez',
+      20 => 'Carlos Castro',
+      21 => 'Russell Rac',
+      22 => 'Cleiverth Pérez',
+      23 => 'Robinson Hernández',
+      24 => 'Luis Aparicio "El Grande"',
+      25 => 'Alejandro Borges',
+      26 => 'Maracaibo',
+      27 => 'Macuto',
+      28 => 'Estadio Universitario',
+    ),
+    'date' => '15 de noviembre de 2025',
+    'author' => 'Redacción Meridiano',
+    'image' => 'https://www.meridiano.com//assets/img/post-bg.jpg',
+    'url' => 'https://www.meridiano.com//post/tres-jonrones-21-heroes-leyenda-pendiente-hazana-casi-nadie-logra-venezuela.php',
   ),
   'yadier-molina-magallanes-segunda-etapa' => 
   array (
