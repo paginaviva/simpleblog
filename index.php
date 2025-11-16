@@ -5,7 +5,51 @@
                 <div class="col-md-10 col-lg-8 col-xl-7">
                     <!-- Post preview-->
                     <div class="post-preview">
-                        <a href="<?php echo POST_DIR; ?>andretty-cordero-importado-yadier-pidio-respondio-tablazo.php">
+                        <a href="<?php echo POST_DIR; ?>cofradia-tres-jonrones-lvbp-22-noches-extraordinarias-mito-cuarto-batazo.php" target="_blank">
+                            <h2 class="post-title">La cofradía de los tres jonrones en la LVBP: 22 noches extraordinarias y el mito del cuarto batazo</h2>
+                            <h3 class="post-subtitle">Solo 22 juegos de tres jonrones en casi ocho décadas de LVBP, coronados por la gesta de Wilson García en 2025 y el santo grial pendiente del cuarto cuadrangular.</h3>
+                        </a>
+                        <p class="post-meta">
+                            Posted by
+                            <a href="#!">Redacción Meridiano</a>
+                            on 15 de noviembre de 2025
+                        </p>
+                    </div>
+                    <div class="post-preview">
+                        <a href="<?php echo POST_DIR; ?>luis-pena-dominicano-ponches-plan-gobierno-guaira.php" target="_blank">
+                            <h2 class="post-title">Luis Peña, el dominicano que convirtió los ponches en plan de gobierno en La Guaira</h2>
+                            <h3 class="post-subtitle">El dominicano domina la LVBP en ponches e innings lanzados con una receta de primer strike obligatorio y mecánica compacta que equilibra el poder de Tiburones.</h3>
+                        </a>
+                        <p class="post-meta">
+                            Posted by
+                            <a href="#!">Redacción Meridiano</a>
+                            on 15 de noviembre de 2025
+                        </p>
+                    </div>
+                    <div class="post-preview">
+                        <a href="<?php echo POST_DIR; ?>lvbp-madrugada-molina-wilson-balbino-500.php" target="_blank">
+                            <h2 class="post-title">Una LVBP en modo madrugada: Molina aterriza ganando, Wilson firma una noche para el recuerdo y Balbino alcanza los 500</h2>
+                            <h3 class="post-subtitle">En dos noches de pelota venezolana, Molina vuelve ganando con Magallanes, Wilson García conecta tres jonrones y Balbino Fuenmayor rompe la barrera de los 500 hits.</h3>
+                        </a>
+                        <p class="post-meta">
+                            Posted by
+                            <a href="#!">Redacción Meridiano</a>
+                            on 15 de noviembre de 2025
+                        </p>
+                    </div>
+                    <div class="post-preview">
+                        <a href="<?php echo POST_DIR; ?>lvbp-encoge-aguilas-mando-cuatro-equipos-1-5-juegos.php" target="_blank">
+                            <h2 class="post-title">La LVBP se encoge: Águilas al mando y cuatro equipos a 1.5 juegos</h2>
+                            <h3 class="post-subtitle">La clasificación del 14/11 dejó a Águilas en la cima y cuatro equipos a solo 1.5 juegos, en una LVBP donde cada serie vale como juego de seis puntos.</h3>
+                        </a>
+                        <p class="post-meta">
+                            Posted by
+                            <a href="#!">Redacción Meridiano</a>
+                            on 15 de noviembre de 2025
+                        </p>
+                    </div>
+                    <div class="post-preview">
+                        <a href="<?php echo POST_DIR; ?>andretty-cordero-importado-yadier-pidio-respondio-tablazo.php" target="_blank">
                             <h2 class="post-title">Andretty Cordero, el importado que Yadier pidió… y que respondió con un tablazo</h2>
                             <h3 class="post-subtitle">El dominicano respondió al pedido de Yadier Molina con jonrón en su primer turno y se perfila como bate de impacto en el medio del orden de Magallanes.</h3>
                         </a>
@@ -16,7 +60,7 @@
                         </p>
                     </div>
                     <div class="post-preview">
-                        <a href="<?php echo POST_DIR; ?>henry-blanco-dos-juegos-al-dique-como-se-administra-un-clubhouse-sin-su-piloto.php">
+                        <a href="<?php echo POST_DIR; ?>henry-blanco-dos-juegos-al-dique-como-se-administra-un-clubhouse-sin-su-piloto.php" target="_blank">
                             <h2 class="post-title">Henry Blanco, dos juegos al dique: cómo se administra un clubhouse sin su piloto</h2>
                             <h3 class="post-subtitle">La suspensión de dos juegos y multa a Henry Blanco llega en una semana de tabla comprimida y obliga a Bravos a administrar bullpen y clubhouse sin su piloto.</h3>
                         </a>
@@ -27,7 +71,7 @@
                         </p>
                     </div>
                     <div class="post-preview">
-                        <a href="<?php echo POST_DIR; ?>castillo-y-muzziotti-el-par-de-encendidos-que-trepo-a-las-aguilas-hasta-la-azotea.php">
+                        <a href="<?php echo POST_DIR; ?>castillo-y-muzziotti-el-par-de-encendidos-que-trepo-a-las-aguilas-hasta-la-azotea.php" target="_blank">
                             <h2 class="post-title">El presente: Zulia ya juega como equipo de punta</h2>
                             <h3 class="post-subtitle">Alí Castillo y Simón Muzziotti lideran el ataque de las Águilas en una semana que las pegó a la cima, imponiendo hábitos de enero en noviembre.</h3>
                         </a>
@@ -38,7 +82,7 @@
                         </p>
                     </div>
                     <div class="post-preview">
-                        <a href="<?php echo POST_DIR; ?>clasicos-mueven-aguja-noche-sardinas-volteo-tablero-cima-apreto.php">
+                        <a href="<?php echo POST_DIR; ?>clasicos-mueven-aguja-noche-sardinas-volteo-tablero-cima-apreto.php" target="_blank">
                             <h2 class="post-title">Clásicos que mueven la aguja: la noche en que Sardiñas volteó el tablero y la cima se apretó</h2>
                             <h3 class="post-subtitle">Un jonrón de Luis Sardiñas en el 9.º inning volteó el Clásico Caracas–Magallanes y dejó la cima de la LVBP apretada, con Zulia respirando en la nuca.</h3>
                         </a>
@@ -49,7 +93,7 @@
                         </p>
                     </div>
                     <div class="post-preview">
-                        <a href="<?php echo POST_DIR; ?>maximo-acosta-motor-acelera-tiburones-fecha-salida.php">
+                        <a href="<?php echo POST_DIR; ?>maximo-acosta-motor-acelera-tiburones-fecha-salida.php" target="_blank">
                             <h2 class="post-title">Máximo Acosta, el motor que acelera a Tiburones… y que ya pone fecha de salida</h2>
                             <h3 class="post-subtitle">El campocorto de Tiburones de La Guaira vive una última semana de alto impacto en la LVBP antes de adelantar su salida por motivos familiares y de visa.</h3>
                         </a>
@@ -60,7 +104,7 @@
                         </p>
                     </div>
                     <div class="post-preview">
-                        <a href="<?php echo POST_DIR; ?>cuarta-semana-aprieta-zulia-mete-presion-la-guaira-responde-caribes-endereza-carretera.php">
+                        <a href="<?php echo POST_DIR; ?>cuarta-semana-aprieta-zulia-mete-presion-la-guaira-responde-caribes-endereza-carretera.php" target="_blank">
                             <h2 class="post-title">La cuarta semana aprieta: Zulia mete presión, La Guaira responde y Caribes se endereza en la carretera</h2>
                             <h3 class="post-subtitle">Zulia aprieta en la cima, La Guaira responde y Caribes se endereza en la carretera en una cuarta semana que ya se juega a ritmo de round robin.</h3>
                         </a>
@@ -71,7 +115,7 @@
                         </p>
                     </div>
                     <div class="post-preview">
-                        <a href="<?php echo POST_DIR; ?>magallanes-mueve-el-tablero.php">
+                        <a href="<?php echo POST_DIR; ?>magallanes-mueve-el-tablero.php" target="_blank">
                             <h2 class="post-title">Magallanes mueve el tablero: el debut de Puig, la baja de Rodríguez y un plan de bateo con urgencia de puntos</h2>
                             <h3 class="post-subtitle">El guion de esta semana en la nave tuvo de todo: presentación estelar, un golpe a la alineación y un cambio de libreto en el cajón de bateo. Yasiel Puig por fin se reportó con Navegantes y lo hizo ante sus ex, Tiburones de La Guaira, en una jornada que puso a correr a la producción, al análisis táctico y al departamento de prensa.</h3>
                         </a>
@@ -82,7 +126,7 @@
                         </p>
                     </div>
                     <div class="post-preview">
-                        <a href="<?php echo POST_DIR; ?>gleyber-torres-leones.php">
+                        <a href="<?php echo POST_DIR; ?>gleyber-torres-leones.php" target="_blank">
                             <h2 class="post-title">Gleyber Torres, la pieza que puede subirle un piso más al lineup de Leones</h2>
                             <h3 class="post-subtitle">Gleyber Torres evalúa ponerse el uniforme melenudo esta 2025–26, siempre y cuando su estatus médico y contractual se lo permita. En un octubre–noviembre donde Leones se mueve en la parte alta, la posibilidad de agregar un grandeliga en plenitud no es humo: es un cambio de ecuación.</h3>
                         </a>
@@ -93,7 +137,7 @@
                         </p>
                     </div>
                     <div class="post-preview">
-                        <a href="<?php echo POST_DIR; ?>yonathan-daza-madero-ofensiva-leones.php">
+                        <a href="<?php echo POST_DIR; ?>yonathan-daza-madero-ofensiva-leones.php" target="_blank">
                             <h2 class="post-title">Yonathan Daza, el madero que hoy explica la ofensiva de Leones</h2>
                             <h3 class="post-subtitle">Yonathan Daza se consolida como el corazón ofensivo de Leones del Caracas tras una semana explosiva en la LVBP.</h3>
                         </a>
@@ -104,7 +148,7 @@
                         </p>
                     </div>
                     <div class="post-preview">
-                        <a href="<?php echo POST_DIR; ?>yadier-molina-magallanes-segunda-etapa.php">
+                        <a href="<?php echo POST_DIR; ?>yadier-molina-magallanes-segunda-etapa.php" target="_blank">
                             <h2 class="post-title">Yadier Molina y su ruta caribeña: el regreso del Capitán al Magallanes</h2>
                             <h3 class="post-subtitle">La consolidación de un dirigente nacido del juego</h3>
                         </a>

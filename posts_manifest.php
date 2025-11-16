@@ -1,6 +1,6 @@
 <?php
 // Manifiesto de posts - Generado automáticamente por generate_manifest.php
-// Última actualización: 2025-11-14 16:12:54
+// Última actualización: 2025-11-15 12:28:30
 // No editar manualmente
 
 $posts = array (
@@ -64,6 +64,48 @@ $posts = array (
     'image' => 'https://www.meridiano.com//assets/img/post-bg.jpg',
     'url' => 'https://www.meridiano.com//post/clasicos-mueven-aguja-noche-sardinas-volteo-tablero-cima-apreto.php',
   ),
+  'cofradia-tres-jonrones-lvbp-22-noches-extraordinarias-mito-cuarto-batazo' => 
+  array (
+    'title' => 'La cofradía de los tres jonrones en la LVBP: 22 noches extraordinarias y el mito del cuarto batazo',
+    'subtitle' => 'Solo 22 juegos de tres jonrones en casi ocho décadas de LVBP, coronados por la gesta de Wilson García en 2025 y el santo grial pendiente del cuarto cuadrangular.',
+    'category' => 'Venezuela',
+    'tags' => 
+    array (
+      0 => 'Wilson García',
+      1 => 'Bill Taylor',
+      2 => 'Stanley Jok',
+      3 => 'Jim Pendleton',
+      4 => 'Ken Harrelson',
+      5 => 'Jacinto Hernández',
+      6 => 'Bob Darwin',
+      7 => 'Larry Parrish',
+      8 => 'Tomás Pérez',
+      9 => 'Pedro Castellano',
+      10 => 'Jason Lane',
+      11 => 'Robert Pérez',
+      12 => 'Eliézer Alfonzo',
+      13 => 'Richard Hidalgo',
+      14 => 'Danny Dorn',
+      15 => 'Scott Van Slyke',
+      16 => 'Javier Herrera',
+      17 => 'Alex Cabrera',
+      18 => 'Mario Lissón',
+      19 => 'Teodoro Martínez',
+      20 => 'Carlos Castro',
+      21 => 'Russell Rac',
+      22 => 'Cleiverth Pérez',
+      23 => 'Robinson Hernández',
+      24 => 'Luis Aparicio "El Grande"',
+      25 => 'Alejandro Borges',
+      26 => 'Maracaibo',
+      27 => 'Macuto',
+      28 => 'Estadio Universitario',
+    ),
+    'date' => '15 de noviembre de 2025',
+    'author' => 'Redacción Meridiano',
+    'image' => 'https://www.meridiano.com//assets/img/post-bg.jpg',
+    'url' => 'https://www.meridiano.com//post/cofradia-tres-jonrones-lvbp-22-noches-extraordinarias-mito-cuarto-batazo.php',
+  ),
   'cuarta-semana-aprieta-zulia-mete-presion-la-guaira-responde-caribes-endereza-carretera' => 
   array (
     'title' => 'La cuarta semana aprieta: Zulia mete presión, La Guaira responde y Caribes se endereza en la carretera',
@@ -114,6 +156,69 @@ $posts = array (
     'author' => 'Redacción Meridiano',
     'image' => 'https://www.meridiano.com//assets/img/post-bg.jpg',
     'url' => 'https://www.meridiano.com//post/henry-blanco-dos-juegos-al-dique-como-se-administra-un-clubhouse-sin-su-piloto.php',
+  ),
+  'luis-pena-dominicano-ponches-plan-gobierno-guaira' => 
+  array (
+    'title' => 'Luis Peña, el dominicano que convirtió los ponches en plan de gobierno en La Guaira',
+    'subtitle' => 'El dominicano domina la LVBP en ponches e innings lanzados con una receta de primer strike obligatorio y mecánica compacta que equilibra el poder de Tiburones.',
+    'category' => 'Venezuela',
+    'tags' => 
+    array (
+      0 => 'Luis Peña',
+      1 => 'La Guaira',
+    ),
+    'date' => '15 de noviembre de 2025',
+    'author' => 'Redacción Meridiano',
+    'image' => 'https://www.meridiano.com//assets/img/post-bg.jpg',
+    'url' => 'https://www.meridiano.com//post/luis-pena-dominicano-ponches-plan-gobierno-guaira.php',
+  ),
+  'lvbp-encoge-aguilas-mando-cuatro-equipos-1-5-juegos' => 
+  array (
+    'title' => 'La LVBP se encoge: Águilas al mando y cuatro equipos a 1.5 juegos',
+    'subtitle' => 'La clasificación del 14/11 dejó a Águilas en la cima y cuatro equipos a solo 1.5 juegos, en una LVBP donde cada serie pesa como juego de seis puntos.',
+    'category' => 'Venezuela',
+    'tags' => 
+    array (
+      0 => 'Venezuela',
+      1 => 'LVBP',
+      2 => 'Águilas del Zulia',
+      3 => 'Tigres de Aragua',
+      4 => 'Bravos de Margarita',
+      5 => 'Caribes de Anzoátegui',
+      6 => 'Leones del Caracas',
+      7 => 'Tiburones de La Guaira',
+      8 => 'Cardenales de Lara',
+      9 => 'Navegantes del Magallanes',
+    ),
+    'date' => '15 de noviembre de 2025',
+    'author' => 'Redacción Meridiano',
+    'image' => 'https://www.meridiano.com//assets/img/post-bg.jpg',
+    'url' => 'https://www.meridiano.com//post/lvbp-encoge-aguilas-mando-cuatro-equipos-1-5-juegos.php',
+  ),
+  'lvbp-madrugada-molina-wilson-balbino-500' => 
+  array (
+    'title' => 'Una LVBP en modo madrugada: Molina aterriza ganando, Wilson firma una noche para el recuerdo y Balbino alcanza los 500',
+    'subtitle' => 'En dos noches de pelota venezolana, Molina vuelve ganando con Magallanes, Wilson García conecta tres jonrones y Balbino Fuenmayor rompe la barrera de los 500 hits.',
+    'category' => 'Venezuela',
+    'tags' => 
+    array (
+      0 => 'Yadier Molina',
+      1 => 'Yasiel Puig',
+      2 => 'Wilson García',
+      3 => 'Balbino Fuenmayor',
+      4 => 'Eduardo Pérez',
+      5 => 'Amílcar Chirinos',
+      6 => 'Edwar Colina',
+      7 => 'Felipe Vázquez',
+      8 => 'Valencia',
+      9 => 'Barquisimeto',
+      10 => 'Puerto La Cruz',
+      11 => '500 hits en la LVBP',
+    ),
+    'date' => '15 de noviembre de 2025',
+    'author' => 'Redacción Meridiano',
+    'image' => 'https://www.meridiano.com//assets/img/post-bg.jpg',
+    'url' => 'https://www.meridiano.com//post/lvbp-madrugada-molina-wilson-balbino-500.php',
   ),
   'magallanes-mueve-el-tablero' => 
   array (
