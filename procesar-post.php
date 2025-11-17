@@ -12,19 +12,31 @@ $errores = [];
 
 // ============ PARSEAR EL BLOQUE [DATOS_DOCUMENTO] ============
 
-// Extractor de secciones
+// Extractor de secciones mejorado
 function extraerSeccion($bloque, $nombre) {
-    $pattern = "/\[" . preg_quote($nombre) . "\](.*?)(?=\[|$)/s";
+    // Buscar [NOMBRE] seguido de contenido hasta la siguiente sección de nivel similar
+    $secciones_conocidas = ['HEAD', 'CABECERA_VISUAL', 'CONTENIDO', 'CATEGORIAS', 'ETIQUETAS', 'DATOS_DOCUMENTO'];
+    
+    // Crear patrón que busca [NOMBRE] y captura hasta la siguiente [SECCION_CONOCIDA]
+    $pattern = "/\[" . preg_quote($nombre) . "\]\s*(.*?)(?=\[(" . implode('|', $secciones_conocidas) . ")\]|$)/s";
     if (preg_match($pattern, $bloque, $matches)) {
         return trim($matches[1]);
     }
     return '';
 }
 
+// Extractor de campos mejorado - limpia URLs con corchetes
 function extraerCampo($texto, $campo) {
-    $pattern = "/" . preg_quote($campo) . ":\s*(.+?)(?=\n|$)/";
+    $pattern = "/" . preg_quote($campo) . ":\s*\[?(.+?)\]?(?=\n|$)/";
     if (preg_match($pattern, $texto, $matches)) {
-        return trim($matches[1]);
+        $valor = trim($matches[1]);
+        // Remover corchetes si quedaron al principio o final
+        $valor = trim($valor, '[]');
+        // Si el valor tiene formato de link markdown [texto](url), extraer la URL
+        if (preg_match('/\[(.+?)\]\((.+?)\)/', $valor, $link_matches)) {
+            $valor = $link_matches[2]; // Tomar la URL
+        }
+        return trim($valor);
     }
     return '';
 }
@@ -61,15 +73,26 @@ $fecha_visible = extraerCampo($seccion_cabecera, 'FechaVisible');
 $categorias_raw = trim($seccion_categorias);
 $etiquetas_raw = trim($seccion_etiquetas);
 
-// Limpiar caracteres especiales al final
-$categorias_raw = rtrim($categorias_raw, ']');
-$etiquetas_raw = rtrim($etiquetas_raw, ']');
+// Limpiar caracteres especiales al final (corchetes, espacios)
+$categorias_raw = trim(rtrim($categorias_raw, ']\n'), " \t");
+$etiquetas_raw = trim(rtrim($etiquetas_raw, ']\n'), " \t");
 
-$categorias_array = array_map('trim', explode(',', $categorias_raw));
-$etiquetas_array = array_map('trim', explode(',', $etiquetas_raw));
+// Si hay corchetes sueltos al final, removerlos
+$categorias_raw = preg_replace('/[\[\]]+$/', '', $categorias_raw);
+$etiquetas_raw = preg_replace('/[\[\]]+$/', '', $etiquetas_raw);
+
+$categorias_array = array_filter(array_map('trim', explode(',', $categorias_raw)));
+$etiquetas_array = array_filter(array_map('trim', explode(',', $etiquetas_raw)));
 
 $category = $categorias_array[0] ?? '';
-$tags = array_filter($etiquetas_array); // Eliminar elementos vacíos
+$tags = $etiquetas_array;
+
+// ============ LIMPIEZA DE URLs ============
+
+// Remover formato markdown de URLs si está presente
+$og_image_url = preg_replace('/\[(.+?)\]\((.+?)\)/', '$2', $og_image_url);
+$twitter_image_url = preg_replace('/\[(.+?)\]\((.+?)\)/', '$2', $twitter_image_url);
+$og_url = preg_replace('/\[(.+?)\]\((.+?)\)/', '$2', $og_url);
 
 // ============ VALIDACIONES ============
 
@@ -132,7 +155,19 @@ if (!str_ends_with($nombre_archivo_html, '.php')) {
     $nombre_archivo_php = $nombre_archivo_html;
 }
 
-$ruta_post = POST_DIR . $nombre_archivo_php;
+// Usar ruta física completa: SITE_DIR + POST_DIR
+$ruta_post = SITE_DIR . ltrim(POST_DIR, '/') . $nombre_archivo_php;
+
+// Verificar que el directorio existe
+$dir_posts = dirname($ruta_post);
+if (!is_dir($dir_posts)) {
+    mostrarErrores(["El directorio de posts no existe: {$dir_posts}"]);
+}
+
+// Verificar que el directorio es escribible
+if (!is_writable($dir_posts)) {
+    mostrarErrores(["El directorio de posts no tiene permisos de escritura: {$dir_posts}"]);
+}
 
 // Verificar que el archivo no existe
 if (file_exists($ruta_post)) {
@@ -214,7 +249,7 @@ if ($contenido_index === false) {
 // Crear bloque HTML del nuevo post
 $bloque_nuevo_post = "                    <!-- Post preview-->
                     <div class=\"post-preview\">
-                        <a href=\"" . POST_DIR . htmlspecialchars($nombre_archivo_php) . "\" target=\"_blank\">
+                        <a href=\"" . rtrim(POST_DIR, '/') . "/" . htmlspecialchars($nombre_archivo_php) . "\" target=\"_blank\">
                             <h2 class=\"post-title\">" . htmlspecialchars($titulo_visible) . "</h2>
                             <h3 class=\"post-subtitle\">" . htmlspecialchars($subtitulo_visible) . "</h3>
                         </a>
