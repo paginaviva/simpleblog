@@ -1,9 +1,27 @@
 <?php
 // Manifiesto de posts - Generado automáticamente por generate_manifest.php
-// Última actualización: 2025-11-16 07:52:51
+// Última actualización: 2025-11-17 09:13:01
 // No editar manualmente
 
 $posts = array (
+  'andres-chaparro-estreno-bate-poder-aguilas-blindar-cima' => 
+  array (
+    'title' => 'Andrés Chaparro adelanta su estreno: el bate de poder que Águilas necesitaba para blindar la cima',
+    'subtitle' => 'El Novato del Año 2023–24 se incorpora sin restricciones a Águilas del Zulia como bate de poder en 1B/3B justo antes de la Semana de La Chinita para reforzar la cima.',
+    'category' => 'Venezuela',
+    'tags' => 
+    array (
+      0 => 'Andrés Chaparro',
+      1 => 'Semana de La Chinita',
+      2 => 'La Chinita',
+      3 => 'Novato del Año 2023–24',
+      4 => 'Maracaibo',
+    ),
+    'date' => '17 de noviembre de 2025',
+    'author' => 'Redacción Meridiano',
+    'image' => 'https://www.meridiano.com//assets/img/post-bg.jpg',
+    'url' => 'https://www.meridiano.com//post/andres-chaparro-estreno-bate-poder-aguilas-blindar-cima.php',
+  ),
   'andretty-cordero-importado-yadier-pidio-respondio-tablazo' => 
   array (
     'title' => 'Andretty Cordero, el importado que Yadier pidió… y que respondió con un tablazo',
@@ -117,6 +135,23 @@ $posts = array (
     'author' => 'Redacción Meridiano',
     'image' => 'https://www.meridiano.com//assets/img/gleyber-torres-leones.webp',
     'url' => 'https://www.meridiano.com//post/gleyber-torres-leones.php',
+  ),
+  'henry-blanco-dos-juegos-al-dique-como-se-administra-un-clubhouse-sin-su-piloto' => 
+  array (
+    'title' => 'Henry Blanco, dos juegos al dique: cómo se administra un clubhouse sin su piloto',
+    'subtitle' => 'La suspensión de dos juegos y multa a Henry Blanco llega en una semana de tabla comprimida y obliga a Bravos a administrar bullpen y clubhouse sin su piloto.',
+    'category' => 'Venezuela',
+    'tags' => 
+    array (
+      0 => 'Henry Blanco',
+      1 => 'Quijada',
+      2 => 'Quintana',
+      3 => 'BCV',
+    ),
+    'date' => '14 de noviembre de 2025',
+    'author' => 'Redacción Meridiano',
+    'image' => 'https://www.meridiano.com//assets/img/post-bg.jpg',
+    'url' => 'https://www.meridiano.com//post/henry-blanco-dos-juegos-al-dique-como-se-administra-un-clubhouse-sin-su-piloto.php',
   ),
   'henry-blanco-suspendido-dos-juegos-temple-lider-pelea-punta' => 
   array (
@@ -269,6 +304,32 @@ $posts = array (
     'author' => 'Redacción Meridiano',
     'image' => 'https://www.meridiano.com//assets/img/post-bg.jpg',
     'url' => 'https://www.meridiano.com//post/noche-apreto-campeonato-bravos-asalta-cima-caribes-repite-nave-respira-lara-baja-volumen-caracas.php',
+  ),
+  'noche-barajo-cima-zulia-nave-caribes-aragua' => 
+  array (
+    'title' => 'La noche que barajó la cima: Zulia se despega, la Nave acelera, Caribes aprieta y Aragua se mira al espejo',
+    'subtitle' => 'Águilas toma el liderato en solitario, Magallanes firma una semana 5–1, Caribes golpea de nuevo a La Guaira y Tigres se enreda con RISP en una LVBP que ya juega a modo enero.',
+    'category' => 'Venezuela',
+    'tags' => 
+    array (
+      0 => 'Yadier Molina',
+      1 => 'Hernán Pérez',
+      2 => 'Ángelo Castellano',
+      3 => 'Eduardo Torrealba',
+      4 => 'Silvino Bracho',
+      5 => 'Renato Núñez',
+      6 => 'Luis Sardiñas',
+      7 => 'Rafael Marchán',
+      8 => 'La Chinita',
+      9 => 'Maracaibo',
+      10 => 'Valencia',
+      11 => 'Puerto La Cruz',
+      12 => 'Maracay',
+    ),
+    'date' => '17 de noviembre de 2025',
+    'author' => 'Redacción Meridiano',
+    'image' => 'https://www.meridiano.com//assets/img/post-bg.jpg',
+    'url' => 'https://www.meridiano.com//post/noche-barajo-cima-zulia-nave-caribes-aragua.php',
   ),
   'post_plantilla' => 
   array (

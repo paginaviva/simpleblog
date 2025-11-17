@@ -5,6 +5,28 @@
                 <div class="col-md-10 col-lg-8 col-xl-7">
                     <!-- Post preview-->
                     <div class="post-preview">
+                        <a href="<?php echo POST_DIR; ?>noche-barajo-cima-zulia-nave-caribes-aragua.php" target="_blank">
+                            <h2 class="post-title">La noche que barajó la cima: Zulia se despega, la Nave acelera, Caribes aprieta y Aragua se mira al espejo</h2>
+                            <h3 class="post-subtitle">Águilas toma el liderato en solitario, Magallanes firma una semana 5–1, Caribes golpea de nuevo a La Guaira y Tigres se enreda con RISP en una LVBP que ya juega a modo enero.</h3>
+                        </a>
+                        <p class="post-meta">
+                            Posted by
+                            <a href="#!">Redacción Meridiano</a>
+                            on 17 de noviembre de 2025
+                        </p>
+                    </div>
+                    <div class="post-preview">
+                        <a href="<?php echo POST_DIR; ?>andres-chaparro-estreno-bate-poder-aguilas-blindar-cima.php" target="_blank">
+                            <h2 class="post-title">Andrés Chaparro adelanta su estreno: el bate de poder que Águilas necesitaba para blindar la cima</h2>
+                            <h3 class="post-subtitle">El Novato del Año 2023–24 se incorpora sin restricciones a Águilas del Zulia como bate de poder en 1B/3B justo antes de la Semana de La Chinita para reforzar la cima.</h3>
+                        </a>
+                        <p class="post-meta">
+                            Posted by
+                            <a href="#!">Redacción Meridiano</a>
+                            on 17 de noviembre de 2025
+                        </p>
+                    </div>
+                    <div class="post-preview">
                         <a href="<?php echo POST_DIR; ?>tres-jonrones-21-heroes-leyenda-pendiente-hazana-casi-nadie-logra-venezuela.php" target="_blank">
                             <h2 class="post-title">Tres jonrones, 21 héroes y una leyenda pendiente: la hazaña que casi nadie logra en Venezuela</h2>
                             <h3 class="post-subtitle">Solo 22 juegos de tres jonrones en casi ocho décadas de LVBP, coronados por la gesta de Wilson García en 2025 y el santo grial pendiente del cuarto cuadrangular.</h3>
