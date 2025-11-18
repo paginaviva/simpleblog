@@ -247,16 +247,18 @@ if ($contenido_index === false) {
 }
 
 // Crear bloque HTML del nuevo post
+// Usar fecha actual en lugar de la del formulario
+$fecha_actual = date('d \d\e F \d\e Y', strtotime('now'));
 $bloque_nuevo_post = "                    <!-- Post preview-->
                     <div class=\"post-preview\">
-                        <a href=\"" . rtrim(POST_DIR, '/') . "/" . htmlspecialchars($nombre_archivo_php) . "\" target=\"_blank\">
+                        <a href=\"<?php echo POST_DIR; ?>" . htmlspecialchars($nombre_archivo_php) . "\" target=\"_blank\">
                             <h2 class=\"post-title\">" . htmlspecialchars($titulo_visible) . "</h2>
                             <h3 class=\"post-subtitle\">" . htmlspecialchars($subtitulo_visible) . "</h3>
                         </a>
                         <p class=\"post-meta\">
                             Posted by
-                            <a href=\"#!\">" . htmlspecialchars($autor_visible) . "</a>
-                            on " . htmlspecialchars($fecha_visible) . "
+                            <a href=\"#!\">Redacción Meridiano BB</a>
+                            on " . htmlspecialchars($fecha_actual) . "
                         </p>
                     </div>";
 

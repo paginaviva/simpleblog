@@ -1,9 +1,34 @@
 <?php
 // Manifiesto de posts - Generado automáticamente por generate_manifest.php
-// Última actualización: 2025-11-17 09:13:01
+// Última actualización: 2025-11-18 09:21:52
 // No editar manualmente
 
 $posts = array (
+  'aguilas-vencen-a-bravos-4-3-en-maracaibo-eybersson-polanco-se-lleva-la-victoria' => 
+  array (
+    'title' => 'Águilas vencen a Bravos 4-3 en Maracaibo: Eybersson Polanco se lleva la victoria',
+    'subtitle' => 'Águilas se consolidan como líderes en la LVBP tras una victoria ajustada sobre Bravos, con Polanco brillando en el relevo.',
+    'category' => 'Venezuela',
+    'tags' => 
+    array (
+      0 => 'Águilas del Zulia',
+      1 => 'Bravos de Margarita',
+      2 => 'Eybersson Polanco',
+      3 => 'Carlos Navas',
+      4 => 'LVBP',
+      5 => 'Beisbol',
+      6 => 'Zulia',
+      7 => 'Maracaibo',
+      8 => 'Tiburones de La Guaira',
+      9 => 'Caribes de Anzoátegui',
+      10 => 'BeisbolPlay',
+      11 => 'Televe',
+    ),
+    'date' => '17 de noviembre de 2025',
+    'author' => 'Redacción Meridiano',
+    'image' => 'https://www.meridiano.com//assets/img/assets/img/post-bg.jpg',
+    'url' => 'https://www.meridiano.com//post/aguilas-vencen-a-bravos-4-3-en-maracaibo-eybersson-polanco-se-lleva-la-victoria.php',
+  ),
   'andres-chaparro-estreno-bate-poder-aguilas-blindar-cima' => 
   array (
     'title' => 'Andrés Chaparro adelanta su estreno: el bate de poder que Águilas necesitaba para blindar la cima',
@@ -42,6 +67,23 @@ $posts = array (
     'image' => 'https://www.meridiano.com//assets/img/post-bg.jpg',
     'url' => 'https://www.meridiano.com//post/andretty-cordero-importado-yadier-pidio-respondio-tablazo.php',
   ),
+  'balbino-fuenmayor-semana-poder-reescribe-pulso-ofensivo-lvbp' => 
+  array (
+    'title' => 'Balbino Fuenmayor: una semana de poder que reescribe el pulso ofensivo de la LVBP',
+    'subtitle' => 'El cañonero de Caribes gana por segunda vez el Jugador de la Semana 5 con una línea .471/.500/1.118 que impulsa la racha oriental y reconfigura la pelea ofensiva de la LVBP.',
+    'category' => 'Venezuela',
+    'tags' => 
+    array (
+      0 => 'Balbino Fuenmayor',
+      1 => 'Bryan Mata',
+      2 => 'Luis Peña',
+      3 => 'Jugador de la Semana 5',
+    ),
+    'date' => '17 de noviembre de 2025',
+    'author' => 'Redacción Meridiano',
+    'image' => 'https://www.meridiano.com//assets/img/assets/img/post-bg.jpg',
+    'url' => 'https://www.meridiano.com//post/balbino-fuenmayor-semana-poder-reescribe-pulso-ofensivo-lvbp.php',
+  ),
   'castillo-y-muzziotti-el-par-de-encendidos-que-trepo-a-las-aguilas-hasta-la-azotea' => 
   array (
     'title' => 'Castillo y Muzziotti, el par de encendidos que trepó a las Águilas hasta la azotea',
@@ -62,6 +104,43 @@ $posts = array (
     'author' => 'Redacción Meridiano',
     'image' => 'https://www.meridiano.com//assets/img/post-bg.jpg',
     'url' => 'https://www.meridiano.com//post/castillo-y-muzziotti-el-par-de-encendidos-que-trepo-a-las-aguilas-hasta-la-azotea.php',
+  ),
+  'chinita-2025-aguilas-bravos-punta-maracaibo' => 
+  array (
+    'title' => 'La Chinita 2025: Águilas y Bravos se juegan algo más que la punta en Maracaibo',
+    'subtitle' => 'El Juego de la Chinita cruza tradición y tabla: Águilas defienden casa y liderato ante unos Bravos que llegan en modo contendiente al Luis Aparicio.',
+    'category' => 'Venezuela',
+    'tags' => 
+    array (
+      0 => 'Juego de la Chinita',
+      1 => 'Luis Aparicio "El Grande"',
+      2 => 'Zulia',
+      3 => 'Bravos',
+      4 => 'Águilas',
+      5 => 'Tiburones de La Guaira',
+      6 => 'Caribes de Anzoátegui',
+      7 => 'Magallanes',
+      8 => 'Yasiel Puig',
+      9 => 'Yadier Molina',
+      10 => 'Henry Blanco',
+      11 => 'Wilson García',
+      12 => 'Ángel Rondón',
+      13 => 'Jecksson Flores',
+      14 => 'Luisangel Acuña',
+      15 => 'Silvino Bracho',
+      16 => 'Hernán Pérez',
+      17 => 'Balbino Fuenmayor',
+      18 => 'BeisbolPlay',
+      19 => 'Televen',
+      20 => '1 Baseball',
+      21 => 'bateo situacional',
+      22 => 'bullpen',
+      23 => 'pitcheo',
+    ),
+    'date' => '18 de noviembre de 2025',
+    'author' => 'Redacción Meridiano',
+    'image' => 'https://www.meridiano.com//assets/img/assets/img/post-bg.jpg',
+    'url' => 'https://www.meridiano.com//post/chinita-2025-aguilas-bravos-punta-maracaibo.php',
   ),
   'cinco-equipos-1-5-juegos-cima-respiracion-asistida' => 
   array (
@@ -118,6 +197,55 @@ $posts = array (
     'author' => 'Redacción Meridiano BB',
     'image' => 'https://www.meridiano.com//assets/img/cuarta-semana-aprieta-zulia-mete-presion-la-guaira-responde-caribes-endereza-carretera.jpg',
     'url' => 'https://www.meridiano.com//post/cuarta-semana-aprieta-zulia-mete-presion-la-guaira-responde-caribes-endereza-carretera.php',
+  ),
+  'festival-batazos-puerto-la-cruz-tiburones-victoria-historica-caribes' => 
+  array (
+    'title' => 'Festival de batazos en Puerto La Cruz: Tiburones se lleva la victoria 18-15 en un juego histórico contra Caribes',
+    'subtitle' => 'Una noche histórica llena de jonrones y emoción, con un juego de 33 carreras que se convertirá en uno de los más recordados de la temporada.',
+    'category' => 'Venezuela',
+    'tags' => 
+    array (
+      0 => 'Tiburones de La Guaira',
+      1 => 'Caribes de Anzoátegui',
+      2 => 'Alfonso “Chico” Carrasquel',
+      3 => 'Marco Davalillo',
+      4 => 'Brayan Rocchio',
+      5 => 'jonrones',
+      6 => 'bateo',
+      7 => 'bullpen',
+      8 => 'Luis Peña',
+      9 => 'Jadher Areinamo',
+      10 => 'Franklin Barreto',
+      11 => 'Herlis Rodríguez',
+      12 => 'Carlos Pérez',
+      13 => 'Daniel Montaño',
+      14 => 'Balbino Fuenmayor',
+      15 => 'Antonio Piñero',
+      16 => 'Rafael Marchán',
+      17 => 'BeisbolPlay',
+      18 => 'Televen',
+      19 => '1 Baseball',
+    ),
+    'date' => '17 de noviembre de 2025',
+    'author' => 'Redacción Meridiano',
+    'image' => 'https://www.meridiano.com//assets/img/assets/img/post-bg.jpg',
+    'url' => 'https://www.meridiano.com//post/festival-batazos-puerto-la-cruz-tiburones-victoria-historica-caribes.php',
+  ),
+  'gabriel-arias-pausa-guaira-reconfigura-libreto-diciembre' => 
+  array (
+    'title' => 'Gabriel Arias hace una pausa: La Guaira reconfigura su libreto a la espera de diciembre',
+    'subtitle' => 'La salida temporal de Gabriel Arias obliga a Tiburones a rearmar el infield y a virar hacia el béisbol situacional mientras espera su regreso en diciembre.',
+    'category' => 'Venezuela',
+    'tags' => 
+    array (
+      0 => 'Gabriel Arias',
+      1 => 'La Guaira',
+      2 => 'Estados Unidos',
+    ),
+    'date' => '17 de noviembre de 2025',
+    'author' => 'Redacción Meridiano',
+    'image' => 'https://www.meridiano.com//assets/img/assets/img/post-bg.jpg',
+    'url' => 'https://www.meridiano.com//post/gabriel-arias-pausa-guaira-reconfigura-libreto-diciembre.php',
   ),
   'gleyber-torres-leones' => 
   array (
@@ -282,6 +410,22 @@ $posts = array (
     'image' => 'https://www.meridiano.com//assets/img/post-bg.jpg',
     'url' => 'https://www.meridiano.com//post/maximo-acosta-motor-acelera-tiburones-fecha-salida.php',
   ),
+  'molina-endereza-brujula-efecto-puig-magallanes' => 
+  array (
+    'title' => 'Molina endereza la brújula: química en el clubhouse y el efecto Puig reencaminan a Magallanes',
+    'subtitle' => 'Con Yadier Molina ordenando roles y Yasiel Puig aportando disciplina y protección al medio del orden, Magallanes pasa de remar contra corriente a jugar con método.',
+    'category' => 'Venezuela',
+    'tags' => 
+    array (
+      0 => 'Yadier Molina',
+      1 => 'Yasiel Puig',
+      2 => 'Núñez',
+    ),
+    'date' => '17 de noviembre de 2025',
+    'author' => 'Redacción Meridiano',
+    'image' => 'https://www.meridiano.com//assets/img/assets/img/post-bg.jpg',
+    'url' => 'https://www.meridiano.com//post/molina-endereza-brujula-efecto-puig-magallanes.php',
+  ),
   'noche-apreto-campeonato-bravos-asalta-cima-caribes-repite-nave-respira-lara-baja-volumen-caracas' => 
   array (
     'title' => 'La noche que apretó el campeonato: Bravos asalta la cima, Caribes repite, la Nave respira y Lara le baja el volumen a Caracas',
@@ -331,21 +475,104 @@ $posts = array (
     'image' => 'https://www.meridiano.com//assets/img/post-bg.jpg',
     'url' => 'https://www.meridiano.com//post/noche-barajo-cima-zulia-nave-caribes-aragua.php',
   ),
-  'post_plantilla' => 
+  'rocio-despues-temblor-efecto-domino-cese-guaira' => 
   array (
-    'title' => 'REEMPLAZAR_CON_TITULO_VISIBLE',
-    'subtitle' => 'REEMPLAZAR_CON_SUBTITULO_VISIBLE',
-    'category' => 'REEMPLAZAR_CON_CATEGORIA_1',
+    'title' => 'Rocío después del temblor: el efecto dominó del cese en La Guaira',
+    'subtitle' => 'El despido de Gregorio Petit y la reacción pública de Brayan Rocchio desatan un temblor en Tiburones y obligan a La Guaira a blindar método y proyecto en plena pelea por la tabla.',
+    'category' => 'Venezuela',
     'tags' => 
     array (
-      0 => 'REEMPLAZAR_CON_ETIQUETA_1',
-      1 => 'REEMPLAZAR_CON_ETIQUETA_2',
-      2 => 'REEMPLAZAR_CON_ETIQUETA_3',
+      0 => 'Brayan Rocchio',
+      1 => 'Gregorio Petit',
+      2 => 'MLB',
     ),
-    'date' => 'REEMPLAZAR_CON_FECHA_VISIBLE',
-    'author' => 'REEMPLAZAR_CON_AUTOR_VISIBLE',
-    'image' => 'https://www.meridiano.com//assets/img/REEMPLAZAR_CON_IMAGEN_FONDO',
-    'url' => 'https://www.meridiano.com//post/post_plantilla.php',
+    'date' => '17 de noviembre de 2025',
+    'author' => 'Redacción Meridiano',
+    'image' => 'https://www.meridiano.com//assets/img/assets/img/post-bg.jpg',
+    'url' => 'https://www.meridiano.com//post/rocio-despues-temblor-efecto-domino-cese-guaira.php',
+  ),
+  'semana-5-resumen-analitico-lvbp-naufragio-turco-vuelo-zulia' => 
+  array (
+    'title' => 'Semana 5 — Resumen analítico: Una semana de locos en la LVBP, del naufragio turco al vuelo del Zulia.',
+    'subtitle' => 'Entre el 10 y el 16 de noviembre, Águilas se adueñó de la cima, Magallanes resucitó con Molina y Puig, Caribes se convirtió en verdugo de Tiburones y Tigres encadenó seis derrotas al hilo.',
+    'category' => 'Venezuela',
+    'tags' => 
+    array (
+      0 => 'Yadier Molina',
+      1 => 'Yasiel Puig',
+      2 => 'Eduardo Pérez',
+      3 => 'Luis Sardiñas',
+      4 => 'Renato Núñez',
+      5 => 'Wilson García',
+      6 => 'Jecksson Flores',
+      7 => 'Luisangel Acuña',
+      8 => 'Ángel Rondón',
+      9 => 'Henry Blanco',
+      10 => 'Balbino Fuenmayor',
+      11 => 'Antonio Piñero',
+      12 => 'Hernán Pérez',
+      13 => 'Rafael Marchán',
+      14 => 'Alcides Escobar',
+      15 => 'Luis Peña',
+      16 => 'Adrián Almeida',
+      17 => 'Héctor Giménez',
+      18 => 'Jadher Areinamo',
+      19 => 'Bryan Mata',
+      20 => 'Felipe Vázquez',
+      21 => 'Ángelo Castellano',
+      22 => 'Eduardo Torrealba',
+      23 => 'Silvino Bracho',
+      24 => 'Valencia',
+      25 => 'Maracay',
+      26 => 'Maracaibo',
+      27 => 'Barquisimeto',
+      28 => 'Guatamare',
+      29 => 'Puerto La Cruz',
+      30 => 'UCV',
+      31 => 'Semana de La Chinita',
+      32 => 'Juego de La Chinita',
+      33 => 'BeisbolPlay',
+    ),
+    'date' => '17 de noviembre de 2025',
+    'author' => 'Redacción Meridiano',
+    'image' => 'https://www.meridiano.com//assets/img/assets/img/post-bg.jpg',
+    'url' => 'https://www.meridiano.com//post/semana-5-resumen-analitico-lvbp-naufragio-turco-vuelo-zulia.php',
+  ),
+  'silvino-bracho-cerrando-metronomo-dos-rescates-cumbre-rapaz' => 
+  array (
+    'title' => 'Silvino Bracho, cerrando con metrónomo: a dos rescates de la cumbre rapaz',
+    'subtitle' => 'El cerrador rapaz llegó a seis salvados con un cierre de cinco pitcheos, se metió en el top-13 histórico de la LVBP y quedó a dos rescates del récord de Águilas.',
+    'category' => 'Venezuela',
+    'tags' => 
+    array (
+      0 => 'Silvino Bracho',
+      1 => 'Jay "La Bala" Baller',
+      2 => 'Giovanny Carrara',
+      3 => 'Semana de La Chinita',
+      4 => 'Maracaibo',
+    ),
+    'date' => '17 de noviembre de 2025',
+    'author' => 'Redacción Meridiano',
+    'image' => 'https://www.meridiano.com//assets/img/assets/img/post-bg.jpg',
+    'url' => 'https://www.meridiano.com//post/silvino-bracho-cerrando-metronomo-dos-rescates-cumbre-rapaz.php',
+  ),
+  'tiburones-mueve-timon-gregorio-petit-marco-davalillo-mando' => 
+  array (
+    'title' => 'Tiburones mueve el timón: Gregorio Petit sale y Marco Davalillo asume el mando',
+    'subtitle' => 'La Guaira cesa a Gregorio Petit, entrega el mando a Marco Davalillo y busca un viraje inmediato en resultados y método en plena tabla apretada.',
+    'category' => 'Venezuela',
+    'tags' => 
+    array (
+      0 => 'Marco Davalillo',
+      1 => 'Gregorio Petit',
+      2 => 'Javier Colina',
+      3 => 'Brayan Rocchio',
+      4 => 'MLB',
+    ),
+    'date' => '17 de noviembre de 2025',
+    'author' => 'Redacción Meridiano',
+    'image' => 'https://www.meridiano.com//assets/img/assets/img/post-bg.jpg',
+    'url' => 'https://www.meridiano.com//post/tiburones-mueve-timon-gregorio-petit-marco-davalillo-mando.php',
   ),
   'tres-jonrones-21-heroes-leyenda-pendiente-hazana-casi-nadie-logra-venezuela' => 
   array (
@@ -386,7 +613,7 @@ $posts = array (
     ),
     'date' => '15 de noviembre de 2025',
     'author' => 'Redacción Meridiano',
-    'image' => 'https://www.meridiano.com//assets/img/post-bg.jpg',
+    'image' => 'https://www.meridiano.com//assets/img/post-bg.webp',
     'url' => 'https://www.meridiano.com//post/tres-jonrones-21-heroes-leyenda-pendiente-hazana-casi-nadie-logra-venezuela.php',
   ),
   'yadier-molina-magallanes-segunda-etapa' => 

@@ -5,7 +5,7 @@
 if (!defined('OG_SITE_NAME')) define('OG_SITE_NAME', 'Meridiano Blog');
 
 // Directorio físico del sitio
-if (!defined('SITE_DIR')) define('SITE_DIR', '/public_html/udn_meridiano_com/');
+if (!defined('SITE_DIR')) define('SITE_DIR', '/home/udcwscico/public_html/udn_meridiano_com/');
 
 // URL base del sitio
 if (!defined('SITE_URL')) define('SITE_URL', 'https://www.meridiano.com/');

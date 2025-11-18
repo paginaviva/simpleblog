@@ -6,13 +6,13 @@ $page_title = "Tres jonrones, 21 héroes y una leyenda pendiente: la hazaña que
 $og_type = "article";  // De [HEAD] OgType (fijo)
 $og_title = "Tres jonrones, 21 héroes y una leyenda pendiente: la hazaña que casi nadie logra en Venezuela";  // De [HEAD] TituloDocumento
 $og_description = "Los 22 juegos de tres jonrones en la LVBP, del pionero Bill Taylor a Wilson García, y el eterno mito del cuarto cuadrangular en Venezuela.";  // De [HEAD] MetaDescription
-$og_image = SITE_URL . "/assets/img/tres-jonrones-21-heroes-leyenda-pendiente-hazana-casi-nadie-logra-venezuela.jpg";  // De [HEAD] OgImage (ajustar ruta)
+$og_image = SITE_URL . "/assets/img/tres-jonrones-21-heroes-leyenda-pendiente-hazana-casi-nadie-logra-venezuela.webp";  // De [HEAD] OgImage (ajustar ruta)
 $og_url = SITE_URL . "/post/tres-jonrones-21-heroes-leyenda-pendiente-hazana-casi-nadie-logra-venezuela.php";  // De UrlPublica o NombreArchivoHTML
 $og_site_name = OG_SITE_NAME;  // De [HEAD] OgSiteName (fijo en config)
 $twitter_card = "summary_large_image";  // De [HEAD] TwitterCard (fijo)
 $twitter_title = "Tres jonrones, 21 héroes y una leyenda pendiente";  // De [HEAD] TituloDocumento
 $twitter_description = "Los 22 juegos de tres jonrones en la LVBP, del pionero Bill Taylor a Wilson García, y el eterno mito del cuarto cuadrangular en Venezuela.";  // De [HEAD] MetaDescription
-$twitter_image = SITE_URL . "/assets/img/tres-jonrones-21-heroes-leyenda-pendiente-hazana-casi-nadie-logra-venezuela.jpg";  // De [HEAD] TwitterImage (ajustar ruta)
+$twitter_image = SITE_URL . "/assets/img/tres-jonrones-21-heroes-leyenda-pendiente-hazana-casi-nadie-logra-venezuela.webp";  // De [HEAD] TwitterImage (ajustar ruta)
 $page_description = "Los 22 juegos de tres jonrones en la LVBP, del pionero Bill Taylor a Wilson García, y el eterno mito del cuarto cuadrangular en Venezuela.";  // De [HEAD] MetaDescription
 $page_author = "Redacción Meridiano";  // De [HEAD] AutorMeta
 
@@ -21,7 +21,7 @@ $post_title = "Tres jonrones, 21 héroes y una leyenda pendiente: la hazaña que
 $post_subtitle = "Solo 22 juegos de tres jonrones en casi ocho décadas de LVBP, coronados por la gesta de Wilson García en 2025 y el santo grial pendiente del cuarto cuadrangular.";  // De [CABECERA_VISUAL] SubtituloVisible
 $post_author = "Redacción Meridiano";  // De [CABECERA_VISUAL] AutorVisible
 $post_date = "15 de noviembre de 2025";  // De [CABECERA_VISUAL] FechaVisible
-$masthead_bg = SITE_URL . "/assets/img/post-bg.jpg";  // De [CABECERA_VISUAL] ImagenFondo (ajustar ruta)
+$masthead_bg = SITE_URL . "/assets/img/post-bg.webp";  // De [CABECERA_VISUAL] ImagenFondo (ajustar ruta)
 
 // [CATEGORIAS] y [ETIQUETAS] - Categorización del post
 $category = "Venezuela";  // De [CATEGORIAS] (tomar la primera categoría)

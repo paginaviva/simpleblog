@@ -5,14 +5,144 @@
                 <div class="col-md-10 col-lg-8 col-xl-7">
                     <!-- Post preview-->
                     <div class="post-preview">
+                        <a href="<?php echo POST_DIR; ?>semana-5-resumen-analitico-lvbp-naufragio-turco-vuelo-zulia.php" target="_blank">
+                            <h2 class="post-title">Semana 5 — Resumen analítico: Una semana de locos en la LVBP, del naufragio turco al vuelo del Zulia.</h2>
+                            <h3 class="post-subtitle">Entre el 10 y el 16 de noviembre, Águilas se adueñó de la cima, Magallanes resucitó con Molina y Puig, Caribes se convirtió en verdugo de Tiburones y Tigres encadenó seis derrotas al hilo.</h3>
+                        </a>
+                        <p class="post-meta">
+                            Posted by
+                            <a href="#!">Redacción Meridiano BB</a>
+                            on 18 de noviembre de 2025
+                        </p>
+                    </div>
+                    
+<!-- Post preview-->
+                    <div class="post-preview">
+                        <a href="<?php echo POST_DIR; ?>balbino-fuenmayor-semana-poder-reescribe-pulso-ofensivo-lvbp.php" target="_blank">
+                            <h2 class="post-title">Balbino Fuenmayor: una semana de poder que reescribe el pulso ofensivo de la LVBP</h2>
+                            <h3 class="post-subtitle">El cañonero de Caribes gana por segunda vez el Jugador de la Semana 5 con una línea .471/.500/1.118 que impulsa la racha oriental y reconfigura la pelea ofensiva de la LVBP.</h3>
+                        </a>
+                        <p class="post-meta">
+                            Posted by
+                            <a href="#!">Redacción Meridiano BB</a>
+                            on 18 de noviembre de 2025
+                        </p>
+                    </div>
+                    
+<!-- Post preview-->
+                    <div class="post-preview">
+                        <a href="<?php echo POST_DIR; ?>chinita-2025-aguilas-bravos-punta-maracaibo.php" target="_blank">
+                            <h2 class="post-title">La Chinita 2025: Águilas y Bravos se juegan algo más que la punta en Maracaibo</h2>
+                            <h3 class="post-subtitle">El Juego de la Chinita cruza tradición y tabla: Águilas defienden casa y liderato ante unos Bravos que llegan en modo contendiente al Luis Aparicio.</h3>
+                        </a>
+                        <p class="post-meta">
+                            Posted by
+                            <a href="#!">Redacción Meridiano BB</a>
+                            on 18 de noviembre de 2025
+                        </p>
+                    </div>
+                    
+<!-- Post preview-->
+                    <div class="post-preview">
+                        <a href="<?php echo POST_DIR; ?>festival-batazos-puerto-la-cruz-tiburones-victoria-historica-caribes.php" target="_blank">
+                            <h2 class="post-title">Festival de batazos en Puerto La Cruz: Tiburones se lleva la victoria 18-15 en un juego histórico contra Caribes</h2>
+                            <h3 class="post-subtitle">Una noche histórica llena de jonrones y emoción, con un juego de 33 carreras que se convertirá en uno de los más recordados de la temporada.</h3>
+                        </a>
+                        <p class="post-meta">
+                            Posted by
+                            <a href="#!">Redacción Meridiano BB</a>
+                            on 18 de noviembre de 2025
+                        </p>
+                    </div>
+                    
+<!-- Post preview-->
+                    <div class="post-preview">
+                        <a href="<?php echo POST_DIR; ?>aguilas-vencen-a-bravos-4-3-en-maracaibo-eybersson-polanco-se-lleva-la-victoria.php" target="_blank">
+                            <h2 class="post-title">Águilas vencen a Bravos 4-3 en Maracaibo: Eybersson Polanco se lleva la victoria</h2>
+                            <h3 class="post-subtitle">Águilas se consolidan como líderes en la LVBP tras una victoria ajustada sobre Bravos, con Polanco brillando en el relevo.</h3>
+                        </a>
+                        <p class="post-meta">
+                            Posted by
+                            <a href="#!">Redacción Meridiano BB</a>
+                            on 18 de noviembre de 2025
+                        </p>
+                    </div>
+                    
+<!-- Post preview-->
+                    <div class="post-preview">
+                        <a href="<?php echo POST_DIR; ?>tiburones-mueve-timon-gregorio-petit-marco-davalillo-mando.php" target="_blank">
+                            <h2 class="post-title">Tiburones mueve el timón: Gregorio Petit sale y Marco Davalillo asume el mando</h2>
+                            <h3 class="post-subtitle">La Guaira cesa a Gregorio Petit, entrega el mando a Marco Davalillo y busca un viraje inmediato en resultados y método en plena tabla apretada.</h3>
+                        </a>
+                        <p class="post-meta">
+                            Posted by
+                            <a href="#!">Redacción Meridiano BB</a>
+                            on 18 de noviembre de 2025
+                        </p>
+                    </div>
+                    
+<!-- Post preview-->
+                    <div class="post-preview">
+                        <a href="<?php echo POST_DIR; ?>rocio-despues-temblor-efecto-domino-cese-guaira.php" target="_blank">
+                            <h2 class="post-title">Rocío después del temblor: el efecto dominó del cese en La Guaira</h2>
+                            <h3 class="post-subtitle">El despido de Gregorio Petit y la reacción pública de Brayan Rocchio desatan un temblor en Tiburones y obligan a La Guaira a blindar método y proyecto en plena pelea por la tabla.</h3>
+                        </a>
+                        <p class="post-meta">
+                            Posted by
+                            <a href="#!">Redacción Meridiano BB</a>
+                            on 17 de noviembre de 2025
+                        </p>
+                    </div>
+                    
+<!-- Post preview-->
+                    <div class="post-preview">
+                        <a href="<?php echo POST_DIR; ?>molina-endereza-brujula-efecto-puig-magallanes.php" target="_blank">
+                            <h2 class="post-title">Molina endereza la brújula: química en el clubhouse y el efecto Puig reencaminan a Magallanes</h2>
+                            <h3 class="post-subtitle">Con Yadier Molina ordenando roles y Yasiel Puig aportando disciplina y protección al medio del orden, Magallanes pasa de remar contra corriente a jugar con método.</h3>
+                        </a>
+                        <p class="post-meta">
+                            Posted by
+                            <a href="#!">Redacción Meridiano BB</a>
+                            on 17 de noviembre de 2025
+                        </p>
+                    </div>
+                    
+<!-- Post preview-->
+                    <div class="post-preview">
+                        <a href="<?php echo POST_DIR; ?>silvino-bracho-cerrando-metronomo-dos-rescates-cumbre-rapaz.php" target="_blank">
+                            <h2 class="post-title">Silvino Bracho, cerrando con metrónomo: a dos rescates de la cumbre rapaz</h2>
+                            <h3 class="post-subtitle">El cerrador rapaz llegó a seis salvados con un cierre de cinco pitcheos, se metió en el top-13 histórico de la LVBP y quedó a dos rescates del récord de Águilas.</h3>
+                        </a>
+                        <p class="post-meta">
+                            Posted by
+                            <a href="#!">Redacción Meridiano BB</a>
+                            on 17 de noviembre de 2025
+                        </p>
+                    </div>
+                    
+<!-- Post preview-->
+                    <div class="post-preview">
+                        <a href="<?php echo POST_DIR; ?>gabriel-arias-pausa-guaira-reconfigura-libreto-diciembre.php" target="_blank">
+                            <h2 class="post-title">Gabriel Arias hace una pausa: La Guaira reconfigura su libreto a la espera de diciembre</h2>
+                            <h3 class="post-subtitle">La salida temporal de Gabriel Arias obliga a Tiburones a rearmar el infield y a virar hacia el béisbol situacional mientras espera su regreso en diciembre.</h3>
+                        </a>
+                        <p class="post-meta">
+                            Posted by
+                            <a href="#!">Redacción Meridiano BB</a>
+                            on 17 de noviembre de 2025
+                        </p>
+                    </div>
+                    
+<!-- Post preview-->
+                    <div class="post-preview">
                         <a href="<?php echo POST_DIR; ?>noche-barajo-cima-zulia-nave-caribes-aragua.php" target="_blank">
                             <h2 class="post-title">La noche que barajó la cima: Zulia se despega, la Nave acelera, Caribes aprieta y Aragua se mira al espejo</h2>
                             <h3 class="post-subtitle">Águilas toma el liderato en solitario, Magallanes firma una semana 5–1, Caribes golpea de nuevo a La Guaira y Tigres se enreda con RISP en una LVBP que ya juega a modo enero.</h3>
                         </a>
                         <p class="post-meta">
                             Posted by
-                            <a href="#!">Redacción Meridiano</a>
-                            on 17 de noviembre de 2025
+                            <a href="#!">Redacción Meridiano BB</a>
+                            on 16 de noviembre de 2025
                         </p>
                     </div>
                     <div class="post-preview">
@@ -22,8 +152,8 @@
                         </a>
                         <p class="post-meta">
                             Posted by
-                            <a href="#!">Redacción Meridiano</a>
-                            on 17 de noviembre de 2025
+                            <a href="#!">Redacción Meridiano BB</a>
+                            on 16 de noviembre de 2025
                         </p>
                     </div>
                     <div class="post-preview">
@@ -33,7 +163,7 @@
                         </a>
                         <p class="post-meta">
                             Posted by
-                            <a href="#!">Redacción Meridiano</a>
+                            <a href="#!">Redacción Meridiano BB</a>
                             on 15 de noviembre de 2025
                         </p>
                     </div>
@@ -44,7 +174,7 @@
                         </a>
                         <p class="post-meta">
                             Posted by
-                            <a href="#!">Redacción Meridiano</a>
+                            <a href="#!">Redacción Meridiano BB</a>
                             on 16 de noviembre de 2025
                         </p>
                     </div>
@@ -55,7 +185,7 @@
                         </a>
                         <p class="post-meta">
                             Posted by
-                            <a href="#!">Redacción Meridiano</a>
+                            <a href="#!">Redacción Meridiano BB</a>
                             on 16 de noviembre de 2025
                         </p>
                     </div>
@@ -66,7 +196,7 @@
                         </a>
                         <p class="post-meta">
                             Posted by
-                            <a href="#!">Redacción Meridiano</a>
+                            <a href="#!">Redacción Meridiano BB</a>
                             on 16 de noviembre de 2025
                         </p>
                     </div>
@@ -77,7 +207,7 @@
                         </a>
                         <p class="post-meta">
                             Posted by
-                            <a href="#!">Redacción Meridiano</a>
+                            <a href="#!">Redacción Meridiano BB</a>
                             on 16 de noviembre de 2025
                         </p>
                     </div>
@@ -88,7 +218,7 @@
                         </a>
                         <p class="post-meta">
                             Posted by
-                            <a href="#!">Redacción Meridiano</a>
+                            <a href="#!">Redacción Meridiano BB</a>
                             on 15 de noviembre de 2025
                         </p>
                     </div>
@@ -99,7 +229,7 @@
                         </a>
                         <p class="post-meta">
                             Posted by
-                            <a href="#!">Redacción Meridiano</a>
+                            <a href="#!">Redacción Meridiano BB</a>
                             on 15 de noviembre de 2025
                         </p>
                     </div>
@@ -110,7 +240,7 @@
                         </a>
                         <p class="post-meta">
                             Posted by
-                            <a href="#!">Redacción Meridiano</a>
+                            <a href="#!">Redacción Meridiano BB</a>
                             on 15 de noviembre de 2025
                         </p>
                     </div>
@@ -121,7 +251,7 @@
                         </a>
                         <p class="post-meta">
                             Posted by
-                            <a href="#!">Redacción Meridiano</a>
+                            <a href="#!">Redacción Meridiano BB</a>
                             on 14 de noviembre de 2025
                         </p>
                     </div>
@@ -132,7 +262,7 @@
                         </a>
                         <p class="post-meta">
                             Posted by
-                            <a href="#!">Redacción Meridiano</a>
+                            <a href="#!">Redacción Meridiano BB</a>
                             on 14 de noviembre de 2025
                         </p>
                     </div>
@@ -143,7 +273,7 @@
                         </a>
                         <p class="post-meta">
                             Posted by
-                            <a href="#!">Redacción Meridiano</a>
+                            <a href="#!">Redacción Meridiano BB</a>
                             on 15 de noviembre de 2025
                         </p>
                     </div>
@@ -154,7 +284,7 @@
                         </a>
                         <p class="post-meta">
                             Posted by
-                            <a href="#!">Redacción Meridiano</a>
+                            <a href="#!">Redacción Meridiano BB</a>
                             on 14 de noviembre de 2025
                         </p>
                     </div>
@@ -165,7 +295,7 @@
                         </a>
                         <p class="post-meta">
                             Posted by
-                            <a href="#!">Redacción Meridiano</a>
+                            <a href="#!">Redacción Meridiano BB</a>
                             on 13 de noviembre de 2025
                         </p>
                     </div>

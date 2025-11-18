@@ -33,14 +33,17 @@
             font-weight: 600;
             color: #212529;
             margin-bottom: 10px;
+            display: block;
         }
         textarea {
             font-family: 'Courier New', monospace;
             font-size: 13px;
-            min-height: 600px;
+            min-height: 510px;
             border: 1px solid #dee2e6;
             border-radius: 4px;
             padding: 15px;
+            width: 100%;
+            box-sizing: border-box;
         }
         textarea:focus {
             border-color: #0d6efd;
@@ -131,7 +134,7 @@ ImagenFondo: assets/img/post-bg.jpg
 TituloVisible: Título visible aquí
 SubtituloVisible: Subtítulo visible aquí
 AutorVisible: Autor visible aquí
-FechaVisible: 17 de noviembre de 2025
+FechaVisible: (No se usa - se aplica fecha actual)
 
 [CONTENIDO]
 &lt;p&gt;Contenido HTML aquí&lt;/p&gt;
@@ -141,7 +144,12 @@ Categoría 1, Categoría 2
 
 [ETIQUETAS]
 Etiqueta 1, Etiqueta 2, Etiqueta 3
-]</pre>
+]
+
+NOTA: El sistema utilizará automáticamente:
+- Fecha actual en index.php (no la de [CABECERA_VISUAL])
+- Autor: "Redacción Meridiano BB"
+- Enlace con &lt;?php echo POST_DIR; ?&gt; (correcto)</pre>
         </div>
     </div>
 
