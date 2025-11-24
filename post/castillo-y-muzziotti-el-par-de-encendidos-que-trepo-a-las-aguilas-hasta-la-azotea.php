@@ -6,13 +6,13 @@ $page_title = "Castillo y Muzziotti, el par de encendidos que trepó a las Águi
 $og_type = "article";  // De [HEAD] OgType (fijo)
 $og_title = "Castillo y Muzziotti, el par de encendidos que trepó a las Águilas hasta la azotea";  // De [HEAD] TituloDocumento
 $og_description = "Castillo y Muzziotti lideran el despertar ofensivo del Zulia, un 1–2 de contacto y corrido agresivo que ha trepado a las Águilas hasta la azotea de la LVBP.";  // De [HEAD] MetaDescription
-$og_image = SITE_URL . "/assets/img/castillo-y-muzziotti-el-par-de-encendidos-que-trepo-a-las-aguilas-hasta-la-azotea.jpg";  // De [HEAD] OgImage (ajustar ruta)
-$og_url = SITE_URL . "/post/castillo-y-muzziotti-el-par-de-encendidos-que-trepo-a-las-aguilas-hasta-la-azotea.html";  // De UrlPublica o NombreArchivoHTML
+$og_image = rtrim(SITE_URL, '/') . "/assets/img/castillo-y-muzziotti-el-par-de-encendidos-que-trepo-a-las-aguilas-hasta-la-azotea.jpg";  // De [HEAD] OgImage (ajustar ruta)
+$og_url = rtrim(SITE_URL, '/') . "/post/castillo-y-muzziotti-el-par-de-encendidos-que-trepo-a-las-aguilas-hasta-la-azotea.html";  // De UrlPublica o NombreArchivoHTML
 $og_site_name = OG_SITE_NAME;  // De [HEAD] OgSiteName (fijo en config)
 $twitter_card = "summary_large_image";  // De [HEAD] TwitterCard (fijo)
 $twitter_title = "Castillo y Muzziotti, el par de encendidos que trepó a las Águilas hasta la azotea";  // De [HEAD] TituloDocumento
 $twitter_description = "Castillo y Muzziotti lideran el despertar ofensivo del Zulia, un 1–2 de contacto y corrido agresivo que ha trepado a las Águilas hasta la azotea de la LVBP.";  // De [HEAD] MetaDescription
-$twitter_image = SITE_URL . "/assets/img/castillo-y-muzziotti-el-par-de-encendidos-que-trepo-a-las-aguilas-hasta-la-azotea.jpg";  // De [HEAD] TwitterImage (ajustar ruta)
+$twitter_image = rtrim(SITE_URL, '/') . "/assets/img/castillo-y-muzziotti-el-par-de-encendidos-que-trepo-a-las-aguilas-hasta-la-azotea.jpg";  // De [HEAD] TwitterImage (ajustar ruta)
 $page_description = "Castillo y Muzziotti lideran el despertar ofensivo del Zulia, un 1–2 de contacto y corrido agresivo que ha trepado a las Águilas hasta la azotea de la LVBP.";  // De [HEAD] MetaDescription
 $page_author = "Redacción Meridiano";  // De [HEAD] AutorMeta
 
@@ -21,7 +21,7 @@ $post_title = "Castillo y Muzziotti, el par de encendidos que trepó a las Águi
 $post_subtitle = "El 1–2 de Castillo y Muzziotti puso ritmo de enero en el Zulia y trepó a las Águilas hasta la cima, con contacto, tráfico en bases y bullpen oportuno.";  // De [CABECERA_VISUAL] SubtituloVisible
 $post_author = "Redacción Meridiano";  // De [CABECERA_VISUAL] AutorVisible
 $post_date = "14 de noviembre de 2025";  // De [CABECERA_VISUAL] FechaVisible
-$masthead_bg = SITE_URL . "/assets/img/post-bg.jpg";  // De [CABECERA_VISUAL] ImagenFondo (ajustar ruta)
+$masthead_bg = rtrim(SITE_URL, '/') . "/assets/img/post-bg.jpg";  // De [CABECERA_VISUAL] ImagenFondo (ajustar ruta)
 
 // [CATEGORIAS] y [ETIQUETAS] - Categorización del post
 $category = "Venezuela";  // De [CATEGORIAS] (tomar la primera categoría)

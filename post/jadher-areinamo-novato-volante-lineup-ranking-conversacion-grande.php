@@ -6,13 +6,13 @@ $page_title = "Jadher Areinamo, un novato al volante del lineup: del “ranking�
 $og_type = "article";  // De [HEAD] OgType (fijo)
 $og_title = "Jadher Areinamo, un novato al volante del lineup: del “ranking” a la conversación grande";  // De [HEAD] TituloDocumento
 $og_description = "Jadher Areinamo se instala en el #1 del Ranking Líder y se mete en la conversación grande con poder, método y volumen clave para Tiburones.";  // De [HEAD] MetaDescription
-$og_image = SITE_URL . "/assets/img/jadher-areinamo-novato-volante-lineup-ranking-conversacion-grande.webp";  // De [HEAD] OgImage (ajustar ruta)
-$og_url = "https://www.meridiano.com/jadher-areinamo-novato-volante-lineup-ranking-conversacion-grande";  // De UrlPublica o NombreArchivoHTML
+$og_image = rtrim(SITE_URL, '/') . "/assets/img/jadher-areinamo-novato-volante-lineup-ranking-conversacion-grande.webp";  // De [HEAD] OgImage (ajustar ruta)
+$og_url = "https://www.meridiano.com/post/jadher-areinamo-novato-volante-lineup-ranking-conversacion-grande";  // De UrlPublica o NombreArchivoHTML
 $og_site_name = OG_SITE_NAME;  // De [HEAD] OgSiteName (fijo en config)
 $twitter_card = "summary_large_image";  // De [HEAD] TwitterCard (fijo)
 $twitter_title = "Jadher Areinamo: novato al volante del lineup escualo";  // De [HEAD] TituloDocumento
 $twitter_description = "Jadher Areinamo se instala en el #1 del Ranking Líder y se mete en la conversación grande con poder, método y volumen clave para Tiburones.";  // De [HEAD] MetaDescription
-$twitter_image = SITE_URL . "/assets/img/jadher-areinamo-novato-volante-lineup-ranking-conversacion-grande.webp";  // De [HEAD] TwitterImage (ajustar ruta)
+$twitter_image = rtrim(SITE_URL, '/') . "/assets/img/jadher-areinamo-novato-volante-lineup-ranking-conversacion-grande.webp";  // De [HEAD] TwitterImage (ajustar ruta)
 $page_description = "Jadher Areinamo se instala en el #1 del Ranking Líder y se mete en la conversación grande con poder, método y volumen clave para Tiburones.";  // De [HEAD] MetaDescription
 $page_author = "Redacción Meridiano";  // De [HEAD] AutorMeta
 
@@ -21,7 +21,7 @@ $post_title = "Jadher Areinamo, un novato al volante del lineup: del “ranking�
 $post_subtitle = "El sub-23 de Tiburones se trepa al #1 del Ranking Líder con poder metódico y volumen útil que lo mete de lleno en la conversación grande de la LVBP.";  // De [CABECERA_VISUAL] SubtituloVisible
 $post_author = "Redacción Meridiano";  // De [CABECERA_VISUAL] AutorVisible
 $post_date = "16 de noviembre de 2025";  // De [CABECERA_VISUAL] FechaVisible
-$masthead_bg = SITE_URL . "/assets/img/post-bg.webp";  // De [CABECERA_VISUAL] ImagenFondo (ajustar ruta)
+$masthead_bg = rtrim(SITE_URL, '/') . "/assets/img/post-bg.webp";  // De [CABECERA_VISUAL] ImagenFondo (ajustar ruta)
 
 // [CATEGORIAS] y [ETIQUETAS] - Categorización del post
 $category = "Venezuela";  // De [CATEGORIAS] (tomar la primera categoría)

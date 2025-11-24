@@ -6,13 +6,13 @@ $page_title = "La LVBP se encoge: Águilas al mando y cuatro equipos a 1.5 juego
 $og_type = "article";  // De [HEAD] OgType (fijo)
 $og_title = "La LVBP se encoge: Águilas al mando y cuatro equipos a 1.5 juegos";  // De [HEAD] TituloDocumento
 $og_description = "Águilas lideran una LVBP comprimida, con cuatro equipos a 1.5 juegos y un fin de semana donde cada serie vale como juego de seis puntos.";  // De [HEAD] MetaDescription
-$og_image = SITE_URL . "/assets/img/lvbp-encoge-aguilas-mando-cuatro-equipos-1-5-juegos.jpg";  // De [HEAD] OgImage (ajustar ruta)
-$og_url = "https://www.meridiano.com/lvbp-encoge-aguilas-mando-cuatro-equipos-1-5-juegos";  // De [HEAD] OgUrl
+$og_image = rtrim(SITE_URL, '/') . "/assets/img/lvbp-encoge-aguilas-mando-cuatro-equipos-1-5-juegos.jpg";  // De [HEAD] OgImage (ajustar ruta)
+$og_url = "https://www.meridiano.com/post/lvbp-encoge-aguilas-mando-cuatro-equipos-1-5-juegos";  // De [HEAD] OgUrl
 $og_site_name = OG_SITE_NAME;  // De [HEAD] OgSiteName (fijo en config)
 $twitter_card = "summary_large_image";  // De [HEAD] TwitterCard (fijo)
 $twitter_title = "La LVBP se encoge: Águilas arriba y cuatro a 1.5 juegos";  // De [HEAD] TwitterTitle
 $twitter_description = "Águilas lideran una LVBP comprimida, con cuatro equipos a 1.5 juegos y un fin de semana donde cada serie vale como juego de seis puntos.";  // De [HEAD] MetaDescription
-$twitter_image = SITE_URL . "/assets/img/lvbp-encoge-aguilas-mando-cuatro-equipos-1-5-juegos.jpg";  // De [HEAD] TwitterImage (ajustar ruta)
+$twitter_image = rtrim(SITE_URL, '/') . "/assets/img/lvbp-encoge-aguilas-mando-cuatro-equipos-1-5-juegos.jpg";  // De [HEAD] TwitterImage (ajustar ruta)
 $page_description = "Águilas lideran una LVBP comprimida, con cuatro equipos a 1.5 juegos y un fin de semana donde cada serie vale como juego de seis puntos.";  // De [HEAD] MetaDescription
 $page_author = "Redacción Meridiano";  // De [HEAD] AutorMeta
 
@@ -21,7 +21,7 @@ $post_title = "La LVBP se encoge: Águilas al mando y cuatro equipos a 1.5 juego
 $post_subtitle = "La clasificación del 14/11 dejó a Águilas en la cima y cuatro equipos a solo 1.5 juegos, en una LVBP donde cada serie pesa como juego de seis puntos.";  // De [CABECERA_VISUAL] SubtituloVisible
 $post_author = "Redacción Meridiano";  // De [CABECERA_VISUAL] AutorVisible
 $post_date = "15 de noviembre de 2025";  // De [CABECERA_VISUAL] FechaVisible
-$masthead_bg = SITE_URL . "/assets/img/post-bg.jpg";  // De [CABECERA_VISUAL] ImagenFondo (ajustar ruta)
+$masthead_bg = rtrim(SITE_URL, '/') . "/assets/img/post-bg.jpg";  // De [CABECERA_VISUAL] ImagenFondo (ajustar ruta)
 
 // [CATEGORIAS] y [ETIQUETAS] - Categorización del post
 $category = "Venezuela";  // De [CATEGORIAS] (tomar la primera categoría)

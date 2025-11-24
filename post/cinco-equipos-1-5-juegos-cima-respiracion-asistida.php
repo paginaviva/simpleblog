@@ -6,13 +6,13 @@ $page_title = "Cinco equipos en 1.5 juegos: la cima con respiración asistida"; 
 $og_type = "article";  // De [HEAD] OgType (fijo)
 $og_title = "Cinco equipos en 1.5 juegos: la cima con respiración asistida";  // De [HEAD] TituloDocumento
 $og_description = "Cinco equipos separados por 1.5 juegos comprimen la cima de la LVBP, donde cruces directos y palanca bien usada definen quién amanece líder.";  // De [HEAD] MetaDescription
-$og_image = SITE_URL . "/assets/img/cinco-equipos-1-5-juegos-cima-respiracion-asistida.jpg";  // De [HEAD] OgImage (ajustar ruta)
-$og_url = "https://www.meridiano.com/cinco-equipos-1-5-juegos-cima-respiracion-asistida";  // De UrlPublica o NombreArchivoHTML
+$og_image = rtrim(SITE_URL, '/') . "/assets/img/cinco-equipos-1-5-juegos-cima-respiracion-asistida.jpg";  // De [HEAD] OgImage (ajustar ruta)
+$og_url = "https://www.meridiano.com/post/cinco-equipos-1-5-juegos-cima-respiracion-asistida";  // De UrlPublica o NombreArchivoHTML
 $og_site_name = OG_SITE_NAME;  // De [HEAD] OgSiteName (fijo en config)
 $twitter_card = "summary_large_image";  // De [HEAD] TwitterCard (fijo)
 $twitter_title = "Cinco equipos en 1.5 juegos: la cima con respiración asistida";  // De [HEAD] TituloDocumento
 $twitter_description = "Cinco equipos separados por 1.5 juegos comprimen la cima de la LVBP, donde cruces directos y palanca bien usada definen quién amanece líder.";  // De [HEAD] MetaDescription
-$twitter_image = SITE_URL . "/assets/img/cinco-equipos-1-5-juegos-cima-respiracion-asistida.jpg";  // De [HEAD] TwitterImage (ajustar ruta)
+$twitter_image = rtrim(SITE_URL, '/') . "/assets/img/cinco-equipos-1-5-juegos-cima-respiracion-asistida.jpg";  // De [HEAD] TwitterImage (ajustar ruta)
 $page_description = "Cinco equipos separados por 1.5 juegos comprimen la cima de la LVBP, donde cruces directos y palanca bien usada definen quién amanece líder.";  // De [HEAD] MetaDescription
 $page_author = "Redacción Meridiano";  // De [HEAD] AutorMeta
 
@@ -21,7 +21,7 @@ $post_title = "Cinco equipos en 1.5 juegos: la cima con respiración asistida"; 
 $post_subtitle = "Águilas, Bravos, Caribes, Tigres y Leones amanecen en 1.5 juegos, con una cima que cambia de dueño según quién use mejor la palanca y los cruces directos.";  // De [CABECERA_VISUAL] SubtituloVisible
 $post_author = "Redacción Meridiano";  // De [CABECERA_VISUAL] AutorVisible
 $post_date = "16 de noviembre de 2025";  // De [CABECERA_VISUAL] FechaVisible
-$masthead_bg = SITE_URL . "/assets/img/post-bg.jpg";  // De [CABECERA_VISUAL] ImagenFondo (ajustar ruta)
+$masthead_bg = rtrim(SITE_URL, '/') . "/assets/img/post-bg.jpg";  // De [CABECERA_VISUAL] ImagenFondo (ajustar ruta)
 
 // [CATEGORIAS] y [ETIQUETAS] - Categorización del post
 $category = "Venezuela";  // De [CATEGORIAS] (tomar la primera categoría)

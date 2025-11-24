@@ -6,13 +6,13 @@ $page_title = 'Gabriel Arias hace una pausa: La Guaira reconfigura su libreto a 
 $og_type = "article";
 $og_title = 'Gabriel Arias hace una pausa: La Guaira reconfigura su libreto a la espera de diciembre';
 $og_description = 'Gabriel Arias hace una pausa en La Guaira y obliga a Tiburones a reconfigurar su infield y libreto ofensivo a la espera de su regreso en diciembre.';
-$og_image = SITE_URL . "/assets/img/gabriel-arias-pausa-guaira-reconfigura-libreto-diciembre.jpg)";
-$og_url = SITE_URL . "/post/gabriel-arias-pausa-guaira-reconfigura-libreto-diciembre.php";
+$og_image = rtrim(SITE_URL, '/') . "/assets/img/gabriel-arias-pausa-guaira-reconfigura-libreto-diciembre.jpg";
+$og_url = rtrim(SITE_URL, '/') . "/post/gabriel-arias-pausa-guaira-reconfigura-libreto-diciembre.php";
 $og_site_name = OG_SITE_NAME;
 $twitter_card = "summary_large_image";
 $twitter_title = 'Gabriel Arias hace una pausa y La Guaira reconfigura su libreto';
 $twitter_description = 'Gabriel Arias se ausenta hasta diciembre y Tiburones debe reordenar su infield y plan ofensivo en plena tabla apretada.';
-$twitter_image = SITE_URL . "/assets/img/gabriel-arias-pausa-guaira-reconfigura-libreto-diciembre.jpg)";
+$twitter_image = rtrim(SITE_URL, '/') . "/assets/img/gabriel-arias-pausa-guaira-reconfigura-libreto-diciembre.jpg";
 $page_description = 'Gabriel Arias hace una pausa en La Guaira y obliga a Tiburones a reconfigurar su infield y libreto ofensivo a la espera de su regreso en diciembre.';
 $page_author = 'Redacción Meridiano';
 
@@ -21,7 +21,7 @@ $post_title = 'Gabriel Arias hace una pausa: La Guaira reconfigura su libreto a 
 $post_subtitle = 'La salida temporal de Gabriel Arias obliga a Tiburones a rearmar el infield y a virar hacia el béisbol situacional mientras espera su regreso en diciembre.';
 $post_author = 'Redacción Meridiano';
 $post_date = '17 de noviembre de 2025';
-$masthead_bg = SITE_URL . "/assets/img/assets/img/post-bg.jpg";
+$masthead_bg = rtrim(SITE_URL, '/') . "/assets/img/assets/img/post-bg.jpg";
 
 // [CATEGORIAS] y [ETIQUETAS] - Categorización del post
 $category = 'Venezuela';

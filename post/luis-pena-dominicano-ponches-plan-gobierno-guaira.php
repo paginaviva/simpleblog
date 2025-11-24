@@ -6,13 +6,13 @@ $page_title = "Luis Peña, el dominicano que convirtió los ponches en plan de g
 $og_type = "article";  // De [HEAD] OgType (fijo)
 $og_title = "Luis Peña, el dominicano que convirtió los ponches en plan de gobierno en La Guaira";  // De [HEAD] TituloDocumento
 $og_description = "Luis Peña lidera la LVBP en ponches e innings lanzados con un plan de primer strike, comando y aperturas largas al servicio de Tiburones de La Guaira.";  // De [HEAD] MetaDescription
-$og_image = SITE_URL . "/assets/img/luis-pena-dominicano-ponches-plan-gobierno-guaira.jpg";  // De [HEAD] OgImage (ajustar ruta)
-$og_url = "https://www.meridiano.com/luis-pena-dominicano-ponches-plan-gobierno-guaira";  // De [HEAD] OgUrl
+$og_image = rtrim(SITE_URL, '/') . "/assets/img/luis-pena-dominicano-ponches-plan-gobierno-guaira.jpg";  // De [HEAD] OgImage (ajustar ruta)
+$og_url = "https://www.meridiano.com/post/luis-pena-dominicano-ponches-plan-gobierno-guaira";  // De [HEAD] OgUrl
 $og_site_name = OG_SITE_NAME;  // De [HEAD] OgSiteName (fijo en config)
 $twitter_card = "summary_large_image";  // De [HEAD] TwitterCard (fijo)
 $twitter_title = "Luis Peña: líder de ponches y plan de gobierno en La Guaira";  // De [HEAD] TwitterTitle
 $twitter_description = "Luis Peña lidera la LVBP en ponches e innings lanzados con un plan de primer strike, comando y aperturas largas al servicio de Tiburones de La Guaira.";  // De [HEAD] MetaDescription
-$twitter_image = SITE_URL . "/assets/img/luis-pena-dominicano-ponches-plan-gobierno-guaira.jpg";  // De [HEAD] TwitterImage (ajustar ruta)
+$twitter_image = rtrim(SITE_URL, '/') . "/assets/img/luis-pena-dominicano-ponches-plan-gobierno-guaira.jpg";  // De [HEAD] TwitterImage (ajustar ruta)
 $page_description = "Luis Peña lidera la LVBP en ponches e innings lanzados con un plan de primer strike, comando y aperturas largas al servicio de Tiburones de La Guaira.";  // De [HEAD] MetaDescription
 $page_author = "Redacción Meridiano";  // De [HEAD] AutorMeta
 
@@ -21,7 +21,7 @@ $post_title = "Luis Peña, el dominicano que convirtió los ponches en plan de g
 $post_subtitle = "El dominicano domina la LVBP en ponches e innings lanzados con una receta de primer strike obligatorio y mecánica compacta que equilibra el poder de Tiburones.";  // De [CABECERA_VISUAL] SubtituloVisible
 $post_author = "Redacción Meridiano";  // De [CABECERA_VISUAL] AutorVisible
 $post_date = "15 de noviembre de 2025";  // De [CABECERA_VISUAL] FechaVisible
-$masthead_bg = SITE_URL . "/assets/img/post-bg.jpg";  // De [CABECERA_VISUAL] ImagenFondo (ajustar ruta)
+$masthead_bg = rtrim(SITE_URL, '/') . "/assets/img/post-bg.jpg";  // De [CABECERA_VISUAL] ImagenFondo (ajustar ruta)
 
 // [CATEGORIAS] y [ETIQUETAS] - Categorización del post
 $category = "Venezuela";  // De [CATEGORIAS] (tomar la primera categoría)

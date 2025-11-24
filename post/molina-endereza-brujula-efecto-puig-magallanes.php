@@ -6,13 +6,13 @@ $page_title = 'Molina endereza la brújula: química en el clubhouse y el efecto
 $og_type = "article";
 $og_title = 'Molina endereza la brújula: química en el clubhouse y el efecto Puig reencaminan a Magallanes';
 $og_description = 'Yadier Molina ordena roles, Yasiel Puig aporta disciplina y protección al medio del orden y Magallanes encuentra método para salir del fondo en la LVBP.';
-$og_image = SITE_URL . "/assets/img/molina-endereza-brujula-efecto-puig-magallanes.jpg)";
-$og_url = SITE_URL . "/post/molina-endereza-brujula-efecto-puig-magallanes.php";
+$og_image = rtrim(SITE_URL, '/') . "/assets/img/molina-endereza-brujula-efecto-puig-magallanes.jpg";
+$og_url = rtrim(SITE_URL, '/') . "/post/molina-endereza-brujula-efecto-puig-magallanes.php";
 $og_site_name = OG_SITE_NAME;
 $twitter_card = "summary_large_image";
 $twitter_title = 'Molina endereza la brújula y el efecto Puig impulsa a Magallanes';
 $twitter_description = 'Molina ordena la casa, Puig aporta disciplina al plato y la Nave pasa de remar contra corriente a jugar con método en la LVBP.';
-$twitter_image = SITE_URL . "/assets/img/molina-endereza-brujula-efecto-puig-magallanes.jpg)";
+$twitter_image = rtrim(SITE_URL, '/') . "/assets/img/molina-endereza-brujula-efecto-puig-magallanes.jpg";
 $page_description = 'Yadier Molina ordena roles, Yasiel Puig aporta disciplina y protección al medio del orden y Magallanes encuentra método para salir del fondo en la LVBP.';
 $page_author = 'Redacción Meridiano';
 
@@ -21,7 +21,7 @@ $post_title = 'Molina endereza la brújula: química en el clubhouse y el efecto
 $post_subtitle = 'Con Yadier Molina ordenando roles y Yasiel Puig aportando disciplina y protección al medio del orden, Magallanes pasa de remar contra corriente a jugar con método.';
 $post_author = 'Redacción Meridiano';
 $post_date = '17 de noviembre de 2025';
-$masthead_bg = SITE_URL . "/assets/img/assets/img/post-bg.jpg";
+$masthead_bg = rtrim(SITE_URL, '/') . "/assets/img/assets/img/post-bg.jpg";
 
 // [CATEGORIAS] y [ETIQUETAS] - Categorización del post
 $category = 'Venezuela';

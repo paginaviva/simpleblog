@@ -6,13 +6,13 @@ $page_title = 'Balbino Fuenmayor: una semana de poder que reescribe el pulso ofe
 $og_type = "article";
 $og_title = 'Balbino Fuenmayor: una semana de poder que reescribe el pulso ofensivo de la LVBP';
 $og_description = 'Balbino Fuenmayor es elegido Jugador de la Semana 5 por segunda vez tras una línea .471/.500/1.118 que impulsa la racha ganadora de Caribes en la LVBP.';
-$og_image = SITE_URL . "/assets/img/balbino-fuenmayor-semana-poder-reescribe-pulso-ofensivo-lvbp.jpg";
-$og_url = SITE_URL . "/post/balbino-fuenmayor-semana-poder-reescribe-pulso-ofensivo-lvbp.php";
+$og_image = rtrim(SITE_URL, '/') . "/assets/img/balbino-fuenmayor-semana-poder-reescribe-pulso-ofensivo-lvbp.jpg";
+$og_url = rtrim(SITE_URL, '/') . "/post/balbino-fuenmayor-semana-poder-reescribe-pulso-ofensivo-lvbp.php";
 $og_site_name = OG_SITE_NAME;
 $twitter_card = "summary_large_image";
 $twitter_title = 'Balbino Fuenmayor: poder de Semana 5 que impulsa a Caribes';
 $twitter_description = 'Fuenmayor firma una línea .471/.500/1.118, gana su segundo Jugador de la Semana 5 y reafirma a Caribes como potencia ofensiva.';
-$twitter_image = SITE_URL . "/assets/img/balbino-fuenmayor-semana-poder-reescribe-pulso-ofensivo-lvbp.jpg";
+$twitter_image = rtrim(SITE_URL, '/') . "/assets/img/balbino-fuenmayor-semana-poder-reescribe-pulso-ofensivo-lvbp.jpg";
 $page_description = 'Balbino Fuenmayor es elegido Jugador de la Semana 5 por segunda vez tras una línea .471/.500/1.118 que impulsa la racha ganadora de Caribes en la LVBP.';
 $page_author = 'Redacción Meridiano';
 
@@ -21,7 +21,7 @@ $post_title = 'Balbino Fuenmayor: una semana de poder que reescribe el pulso ofe
 $post_subtitle = 'El cañonero de Caribes gana por segunda vez el Jugador de la Semana 5 con una línea .471/.500/1.118 que impulsa la racha oriental y reconfigura la pelea ofensiva de la LVBP.';
 $post_author = 'Redacción Meridiano';
 $post_date = '17 de noviembre de 2025';
-$masthead_bg = SITE_URL . "/assets/img/assets/img/post-bg.jpg";
+$masthead_bg = rtrim(SITE_URL, '/') . "/assets/img/assets/img/post-bg.jpg";
 
 // [CATEGORIAS] y [ETIQUETAS] - Categorización del post
 $category = 'Venezuela';

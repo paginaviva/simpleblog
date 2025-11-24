@@ -6,13 +6,13 @@ $page_title = 'Tiburones mueve el timón: Gregorio Petit sale y Marco Davalillo 
 $og_type = "article";
 $og_title = 'Tiburones mueve el timón: Gregorio Petit sale y Marco Davalillo asume el mando';
 $og_description = 'La Guaira cesa a Gregorio Petit y entrega el mando a Marco Davalillo para intentar reencaminar a Tiburones en una LVBP comprimida.';
-$og_image = SITE_URL . "/assets/img/tiburones-mueve-timon-gregorio-petit-marco-davalillo-mando.jpg)";
-$og_url = SITE_URL . "/post/tiburones-mueve-timon-gregorio-petit-marco-davalillo-mando.php";
+$og_image = rtrim(SITE_URL, '/') . "/assets/img/tiburones-mueve-timon-gregorio-petit-marco-davalillo-mando.jpg";
+$og_url = rtrim(SITE_URL, '/') . "/post/tiburones-mueve-timon-gregorio-petit-marco-davalillo-mando.php";
 $og_site_name = OG_SITE_NAME;
 $twitter_card = "summary_large_image";
 $twitter_title = 'Tiburones mueve el timón: Petit sale y Davalillo asume';
 $twitter_description = 'La Guaira cesa a Gregorio Petit y entrega el mando a Marco Davalillo para intentar reencaminar a Tiburones en una LVBP comprimida.';
-$twitter_image = SITE_URL . "/assets/img/tiburones-mueve-timon-gregorio-petit-marco-davalillo-mando.jpg)";
+$twitter_image = rtrim(SITE_URL, '/') . "/assets/img/tiburones-mueve-timon-gregorio-petit-marco-davalillo-mando.jpg";
 $page_description = 'La Guaira cesa a Gregorio Petit y entrega el mando a Marco Davalillo para intentar reencaminar a Tiburones en una LVBP comprimida.';
 $page_author = 'Redacción Meridiano';
 
@@ -21,7 +21,7 @@ $post_title = 'Tiburones mueve el timón: Gregorio Petit sale y Marco Davalillo 
 $post_subtitle = 'La Guaira cesa a Gregorio Petit, entrega el mando a Marco Davalillo y busca un viraje inmediato en resultados y método en plena tabla apretada.';
 $post_author = 'Redacción Meridiano';
 $post_date = '17 de noviembre de 2025';
-$masthead_bg = SITE_URL . "/assets/img/assets/img/post-bg.jpg";
+$masthead_bg = rtrim(SITE_URL, '/') . "/assets/img/assets/img/post-bg.jpg";
 
 // [CATEGORIAS] y [ETIQUETAS] - Categorización del post
 $category = 'Venezuela';

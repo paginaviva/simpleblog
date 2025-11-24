@@ -6,13 +6,13 @@ $page_title = "La noche que apretó el campeonato: Bravos asalta la cima, Caribe
 $og_type = "article";  // De [HEAD] OgType (fijo)
 $og_title = "La noche que apretó el campeonato: Bravos asalta la cima, Caribes repite, la Nave respira y Lara le baja el volumen a Caracas";  // De [HEAD] TituloDocumento
 $og_description = "Bravos iguala la cima, Caribes repite ante La Guaira, Magallanes respira y Cardenales frenan al Caracas en una noche que aprieta la LVBP.";  // De [HEAD] MetaDescription
-$og_image = SITE_URL . "/assets/img/noche-apreto-campeonato-bravos-asalta-cima-caribes-repite-nave-respira-lara-baja-volumen-caracas.jpg";  // De [HEAD] OgImage (ajustar ruta)
-$og_url = "https://www.meridiano.com/noche-apreto-campeonato-bravos-asalta-cima-caribes-repite-nave-respira-lara-baja-volumen-caracas";  // De UrlPublica o NombreArchivoHTML
+$og_image = rtrim(SITE_URL, '/') . "/assets/img/noche-apreto-campeonato-bravos-asalta-cima-caribes-repite-nave-respira-lara-baja-volumen-caracas.jpg";  // De [HEAD] OgImage (ajustar ruta)
+$og_url = "https://www.meridiano.com/post/noche-apreto-campeonato-bravos-asalta-cima-caribes-repite-nave-respira-lara-baja-volumen-caracas";  // De UrlPublica o NombreArchivoHTML
 $og_site_name = OG_SITE_NAME;  // De [HEAD] OgSiteName (fijo en config)
 $twitter_card = "summary_large_image";  // De [HEAD] TwitterCard (fijo)
 $twitter_title = "Bravos asalta la cima en una noche que aprieta la LVBP";  // De [HEAD] TituloDocumento
 $twitter_description = "Bravos iguala la cima, Caribes repite ante La Guaira, Magallanes respira y Cardenales frenan al Caracas en una noche que aprieta la LVBP.";  // De [HEAD] MetaDescription
-$twitter_image = SITE_URL . "/assets/img/noche-apreto-campeonato-bravos-asalta-cima-caribes-repite-nave-respira-lara-baja-volumen-caracas.jpg";  // De [HEAD] TwitterImage (ajustar ruta)
+$twitter_image = rtrim(SITE_URL, '/') . "/assets/img/noche-apreto-campeonato-bravos-asalta-cima-caribes-repite-nave-respira-lara-baja-volumen-caracas.jpg";  // De [HEAD] TwitterImage (ajustar ruta)
 $page_description = "Bravos iguala la cima, Caribes repite ante La Guaira, Magallanes respira y Cardenales frenan al Caracas en una noche que aprieta la LVBP.";  // De [HEAD] MetaDescription
 $page_author = "Redacción Meridiano";  // De [HEAD] AutorMeta
 
@@ -21,7 +21,7 @@ $post_title = "La noche que apretó el campeonato: Bravos asalta la cima, Caribe
 $post_subtitle = "La jornada del 15/11 movió la tabla: Bravos iguala la cima, Caribes repite ante La Guaira, Magallanes reacciona y Lara frena al Caracas en una LVBP que ya huele a enero.";  // De [CABECERA_VISUAL] SubtituloVisible
 $post_author = "Redacción Meridiano";  // De [CABECERA_VISUAL] AutorVisible
 $post_date = "16 de noviembre de 2025";  // De [CABECERA_VISUAL] FechaVisible
-$masthead_bg = SITE_URL . "/assets/img/post-bg.jpg";  // De [CABECERA_VISUAL] ImagenFondo (ajustar ruta)
+$masthead_bg = rtrim(SITE_URL, '/') . "/assets/img/post-bg.jpg";  // De [CABECERA_VISUAL] ImagenFondo (ajustar ruta)
 
 // [CATEGORIAS] y [ETIQUETAS] - Categorización del post
 $category = "Venezuela";  // De [CATEGORIAS] (tomar la primera categoría)

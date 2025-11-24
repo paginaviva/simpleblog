@@ -6,13 +6,13 @@ $page_title = 'Semana 5 — Resumen analítico: Una semana de locos en la LVBP, 
 $og_type = "article";
 $og_title = 'Semana 5 — Resumen analítico: Una semana de locos en la LVBP, del naufragio turco al vuelo del Zulia.';
 $og_description = 'La semana 5 de la LVBP movió la cima: Águilas toma el mando, Magallanes resucita, Caribes castiga a Tiburones y Tigres se hunde con seis derrotas al hilo.';
-$og_image = SITE_URL . "/assets/img/semana-5-resumen-analitico-lvbp-naufragio-turco-vuelo-zulia.jpg)";
-$og_url = SITE_URL . "/post/semana-5-resumen-analitico-lvbp-naufragio-turco-vuelo-zulia.php";
+$og_image = rtrim(SITE_URL, '/') . "/assets/img/semana-5-resumen-analitico-lvbp-naufragio-turco-vuelo-zulia.jpg";
+$og_url = rtrim(SITE_URL, '/') . "/post/semana-5-resumen-analitico-lvbp-naufragio-turco-vuelo-zulia.php";
 $og_site_name = OG_SITE_NAME;
 $twitter_card = "summary_large_image";
 $twitter_title = 'Semana 5: una semana de locos en la LVBP';
 $twitter_description = 'Águilas vuela a la cima, Magallanes resucita, Caribes castiga a Tiburones y Tigres se derrumba en una semana 5 frenética en la LVBP.';
-$twitter_image = SITE_URL . "/assets/img/semana-5-resumen-analitico-lvbp-naufragio-turco-vuelo-zulia.jpg)";
+$twitter_image = rtrim(SITE_URL, '/') . "/assets/img/semana-5-resumen-analitico-lvbp-naufragio-turco-vuelo-zulia.jpg";
 $page_description = 'La semana 5 de la LVBP movió la cima: Águilas toma el mando, Magallanes resucita, Caribes castiga a Tiburones y Tigres se hunde con seis derrotas al hilo.';
 $page_author = 'Redacción Meridiano';
 
@@ -21,7 +21,7 @@ $post_title = 'Semana 5 — Resumen analítico: Una semana de locos en la LVBP, 
 $post_subtitle = 'Entre el 10 y el 16 de noviembre, Águilas se adueñó de la cima, Magallanes resucitó con Molina y Puig, Caribes se convirtió en verdugo de Tiburones y Tigres encadenó seis derrotas al hilo.';
 $post_author = 'Redacción Meridiano';
 $post_date = '17 de noviembre de 2025';
-$masthead_bg = SITE_URL . "/assets/img/assets/img/post-bg.jpg";
+$masthead_bg = rtrim(SITE_URL, '/') . "/assets/img/assets/img/post-bg.jpg";
 
 // [CATEGORIAS] y [ETIQUETAS] - Categorización del post
 $category = 'Venezuela';

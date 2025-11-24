@@ -6,13 +6,13 @@ $page_title = "La noche que barajó la cima: Zulia se despega, la Nave acelera, 
 $og_type = "article";  // De [HEAD] OgType (fijo)
 $og_title = "La noche que barajó la cima: Zulia se despega, la Nave acelera, Caribes aprieta y Aragua se mira al espejo";  // De [HEAD] TituloDocumento
 $og_description = "Águilas toma la cima, Magallanes firma semana 5–1, Caribes castiga a La Guaira y Tigres alarga su mala racha con RISP en una noche que barajó la LVBP.";  // De [HEAD] MetaDescription
-$og_image = SITE_URL . "/assets/img/noche-barajo-cima-zulia-nave-caribes-aragua.jpg";  // De [HEAD] OgImage (ajustar ruta)
-$og_url = "https://www.meridiano.com/noche-barajo-cima-zulia-nave-caribes-aragua";  // De UrlPublica o NombreArchivoHTML
+$og_image = rtrim(SITE_URL, '/') . "/assets/img/noche-barajo-cima-zulia-nave-caribes-aragua.jpg";  // De [HEAD] OgImage (ajustar ruta)
+$og_url = "https://www.meridiano.com/post/noche-barajo-cima-zulia-nave-caribes-aragua";  // De UrlPublica o NombreArchivoHTML
 $og_site_name = OG_SITE_NAME;  // De [HEAD] OgSiteName (fijo en config)
 $twitter_card = "summary_large_image";  // De [HEAD] TwitterCard (fijo)
 $twitter_title = "Zulia se despega y la Nave acelera en una noche clave";  // De [HEAD] TituloDocumento
 $twitter_description = "Águilas se despega, Magallanes firma semana 5–1, Caribes castiga a La Guaira y Tigres se hunde con RISP en una noche que barajó la LVBP.";  // De [HEAD] MetaDescription
-$twitter_image = SITE_URL . "/assets/img/noche-barajo-cima-zulia-nave-caribes-aragua.jpg";  // De [HEAD] TwitterImage (ajustar ruta)
+$twitter_image = rtrim(SITE_URL, '/') . "/assets/img/noche-barajo-cima-zulia-nave-caribes-aragua.jpg";  // De [HEAD] TwitterImage (ajustar ruta)
 $page_description = "Águilas toma la cima, Magallanes firma semana 5–1, Caribes castiga a La Guaira y Tigres alarga su mala racha con RISP en una noche que barajó la LVBP.";  // De [HEAD] MetaDescription
 $page_author = "Redacción Meridiano";  // De [HEAD] AutorMeta
 
@@ -21,7 +21,7 @@ $post_title = "La noche que barajó la cima: Zulia se despega, la Nave acelera, 
 $post_subtitle = "Águilas toma el liderato en solitario, Magallanes firma una semana 5–1, Caribes golpea de nuevo a La Guaira y Tigres se enreda con RISP en una LVBP que ya juega a modo enero.";  // De [CABECERA_VISUAL] SubtituloVisible
 $post_author = "Redacción Meridiano";  // De [CABECERA_VISUAL] AutorVisible
 $post_date = "17 de noviembre de 2025";  // De [CABECERA_VISUAL] FechaVisible
-$masthead_bg = SITE_URL . "/assets/img/post-bg.jpg";  // De [CABECERA_VISUAL] ImagenFondo (ajustar ruta)
+$masthead_bg = rtrim(SITE_URL, '/') . "/assets/img/post-bg.jpg";  // De [CABECERA_VISUAL] ImagenFondo (ajustar ruta)
 
 // [CATEGORIAS] y [ETIQUETAS] - Categorización del post
 $category = "Venezuela";  // De [CATEGORIAS] (tomar la primera categoría)

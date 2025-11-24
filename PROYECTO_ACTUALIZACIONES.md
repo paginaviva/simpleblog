@@ -6,6 +6,147 @@
 
 ## Actualizaciones (Orden cronológico inverso)
 
+### v2.8 - 18 de Noviembre de 2025
+
+#### Corrección de og_url en posts editados manualmente (falta /post/)
+
+**Archivos modificados:**
+- `fix-ogurl-posts.php` (nuevo script de corrección)
+
+**Cambios realizados:**
+
+1. **fix-ogurl-posts.php - Script de corrección de og_url (NUEVO)**
+   - **Propósito:** Corregir 12 posts con `og_url` hardcodeada sin `/post/`
+   - **Problema:** Posts editados manualmente tenían: `https://www.meridiano.com/nombre-post`
+   - **Solución:** Agregar `/post/` a la URL: `https://www.meridiano.com/post/nombre-post`
+   - **Posts corregidos:**
+     - ✓ andres-chaparro-estreno-bate-poder-aguilas-blindar-cima.php
+     - ✓ andretty-cordero-importado-yadier-pidio-respondio-tablazo.php
+     - ✓ cinco-equipos-1-5-juegos-cima-respiracion-asistida.php
+     - ✓ henry-blanco-dos-juegos-al-dique-como-se-administra-un-clubhouse-sin-su-piloto.php
+     - ✓ henry-blanco-suspendido-dos-juegos-temple-lider-pelea-punta.php
+     - ✓ jadher-areinamo-novato-volante-lineup-ranking-conversacion-grande.php
+     - ✓ luis-pena-dominicano-ponches-plan-gobierno-guaira.php
+     - ✓ lvbp-encoge-aguilas-mando-cuatro-equipos-1-5-juegos.php
+     - ✓ lvbp-madrugada-molina-wilson-balbino-500.php
+     - ✓ maximo-acosta-motor-acelera-tiburones-fecha-salida.php
+     - ✓ noche-apreto-campeonato-bravos-asalta-cima-caribes-repite-nave-respira-lara-baja-volumen-caracas.php
+     - ✓ noche-barajo-cima-zulia-nave-caribes-aragua.php
+   - **Ejecución:** `php fix-ogurl-posts.php`
+   - **Resultado:** ✓ 12 posts corregidos
+   - **Validación:** ✓ 31/31 posts sin errores de sintaxis PHP
+
+2. **Impacto:**
+   - ✓ Canonical tags en los 12 posts ahora apuntan a URLs correctas
+   - ✓ Open Graph URLs correctas
+   - ✓ TODOS los 31 posts tienen URLs uniformes y correctas
+
+**Descripción:**
+Corrección de URLs en 12 posts que fueron creados/editados manualmente. Estos posts tenían `og_url` hardcodeada sin el segmento `/post/`, lo que causaba que los canonical tags apuntaran a URLs incorrectas. El script corrigió automáticamente todas las instancias.
+
+**Resultado final del día:**
+- ✓ 31/31 posts sin errores de sintaxis
+- ✓ 19 posts con doble slash corregido
+- ✓ 12 posts con og_url sin /post/ corregido
+- ✓ 31 posts con paréntesis extras en imágenes removidos
+- ✓ Todos los canonical tags apuntan a URLs correctas
+- ✓ Sistema completamente consistente y listo para producción
+
+**Usuario/Responsable:** Corrección de URLs hardcodeadas
+
+---
+
+### v2.7 - 18 de Noviembre de 2025 (CORREGIDO)
+
+#### Corrección de doble slash en URLs generadas + Bulk Fix de posts existentes
+
+**Archivos modificados:**
+- `procesar-post.php`
+- `fix-urls-posts.php` (nuevo script de corrección)
+
+**Cambios realizados:**
+
+1. **procesar-post.php - Corrección de concatenación de SITE_URL**
+   - Usar `rtrim(SITE_URL, '/')` antes de concatenar rutas
+   - Lugares corregidos: líneas 195, 209, 295
+
+2. **fix-urls-posts.php - Script de bulk fix CORRECTO (NUEVO)**
+   - **Propósito:** Corregir TODOS los 31 posts existentes
+   - **Problemas corregidos:**
+     - Doble slash: `SITE_URL . "/post/"` → `rtrim(SITE_URL, '/') . "/post/"`
+     - Paréntesis extras: `.jpg)"` → `.jpg"`
+     - Mantiene consistencia de comillas (doble con doble)
+   - **Ejecución:** `php fix-urls-posts.php`
+   - **Resultado:** ✓ 31 posts corregidos exitosamente
+   - **Validación:** ✓ 31/31 archivos sin errores de sintaxis PHP
+
+3. **Validación completa:**
+   - ✓ `procesar-post.php`: Sin errores de sintaxis
+   - ✓ `fix-urls-posts.php`: Ejecutado exitosamente
+   - ✓ TODOS los 31 posts: Sin errores de sintaxis
+   - ✓ URLs generadas correctamente: `https://www.meridiano.com/post/archivo.php` (sin doble slash)
+   - ✓ Canonical tags correctos en todos los posts
+   - ✓ Open Graph URLs limpias
+   - ✓ Twitter Card URLs limpias
+
+**Descripción:**
+Corrección completa del bug de doble slash. El script `fix-urls-posts.php` ejecutó un bulk fix exitoso de todos los 31 posts, removiendo paréntesis extras y aplicando `rtrim()` para evitar doble slash, manteniendo la consistencia de comillas.
+
+**Impacto esperado:**
+- ✓ URLs limpias sin doble slash en todos los 31 posts
+- ✓ Canonical tags correctos
+- ✓ Open Graph correctos
+- ✓ Twitter Cards correctos
+- ✓ Mejor cumplimiento de estándares web
+- ✓ Mejor indexación en Search Console
+
+**Usuario/Responsable:** Corrección de bug + Bulk fix (versión corregida)
+
+---
+
+### v2.6 - 18 de Noviembre de 2025
+
+#### Implementación de canonical tags para resolver SEO duplicado
+
+**Archivos modificados:**
+- `header_index.php`
+- `header_common.php`
+
+**Cambios realizados:**
+
+1. **header_index.php - Canonical para homepage**
+   - Agregada etiqueta `<link rel="canonical" href="<?php echo SITE_URL; ?>">`
+   - Posicionada después del `<title>` e inmediatamente antes de Open Graph
+   - Mantiene íntegra la etiqueta `<meta property="og:url" ...>` (para redes sociales)
+   - **Resultado:** Homepage canónica es `https://www.meridiano.com/` (sin `/index.php`)
+
+2. **header_common.php - Canonical para posts**
+   - Agregada etiqueta `<link rel="canonical" href="<?php echo $og_url ?? SITE_URL; ?>">`
+   - Posicionada después del `<title>` e inmediatamente antes de Open Graph
+   - Mantiene íntegra la etiqueta `<meta property="og:url" ...>` (para redes sociales)
+   - **Resultado:** Cada post tiene su propia URL canónica única generada por procesar-post.php
+
+3. **Validación:**
+   - ✓ `header_index.php`: Sin errores de sintaxis PHP
+   - ✓ `header_common.php`: Sin errores de sintaxis PHP
+   - ✓ procesar-post.php ya genera `$og_url` única para cada post: `https://www.meridiano.com/post/nombre-archivo.php`
+
+**Descripción:**
+Resolución del problema SEO reportado en Google Search Console: "Duplicada: el usuario no ha indicado ninguna versión canónica". Implementación de canonical tags dinámicas que permiten a Google:
+- Indexar correctamente la homepage (sin duplicados entre `/`, `/index.php`, etc.)
+- Indexar cada post como página única (sin variantes)
+- Consolidar autoridad en URLs preferidas
+
+**Impacto esperado:**
+- ✓ Eliminación del error de duplicación en Search Console
+- ✓ Mejora de indexación de homepage
+- ✓ Mejora de indexación de todos los posts (30+)
+- ✓ Mejor SEO y visibilidad
+
+**Usuario/Responsable:** Corrección SEO técnica
+
+---
+
 ### v2.5 - 18 de Noviembre de 2025
 
 #### Mejoras en UI - Formulario de creación de posts
@@ -230,12 +371,14 @@ Arquitectura base completamente funcional en PHP modular. Sistema escalable list
 | 2.3 | - | 30+ | Documentación completa |
 | 2.4 | 18-Nov-2025 | 30+ | Correcciones críticas sistema posts |
 | 2.5 | 18-Nov-2025 | 30+ | Mejoras UI formulario |
+| 2.6 | 18-Nov-2025 | 30+ | Canonical tags SEO (resuelve duplicación) |
+| 2.7 | 18-Nov-2025 | 30+ | Corrección doble slash en URLs |
 
 ---
 
 ## Próximas actualizaciones esperadas
 
-- [ ] v2.6: Sección unificada de explicación de funcionamiento en PROYECTO_DESCRIPCION_COMPLETA.md
+- [ ] v2.8: Validación en Search Console post-canonical y URLs limpias
 - [ ] v3.0: Corrección de rutas de imágenes duplicadas/con paréntesis
 - [ ] v3.1: Implementación de sitemap.xml dinámico
 - [ ] v3.2: Agregar autenticación a crear-post-admin.php

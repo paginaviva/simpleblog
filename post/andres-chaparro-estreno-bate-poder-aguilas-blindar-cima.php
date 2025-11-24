@@ -6,13 +6,13 @@ $page_title = "Andrés Chaparro adelanta su estreno: el bate de poder que Águil
 $og_type = "article";  // De [HEAD] OgType (fijo)
 $og_title = "Andrés Chaparro adelanta su estreno: el bate de poder que Águilas necesitaba para blindar la cima";  // De [HEAD] TituloDocumento
 $og_description = "Andrés Chaparro se suma sin restricciones a Águilas del Zulia como bate de poder 1B/3B para blindar la cima antes de la Semana de La Chinita.";  // De [HEAD] MetaDescription
-$og_image = SITE_URL . "/assets/img/andres-chaparro-estreno-bate-poder-aguilas-blindar-cima.jpg";  // De [HEAD] OgImage (ajustar ruta)
-$og_url = "https://www.meridiano.com/andres-chaparro-estreno-bate-poder-aguilas-blindar-cima";  // De UrlPublica o NombreArchivoHTML
+$og_image = rtrim(SITE_URL, '/') . "/assets/img/andres-chaparro-estreno-bate-poder-aguilas-blindar-cima.jpg";  // De [HEAD] OgImage (ajustar ruta)
+$og_url = "https://www.meridiano.com/post/andres-chaparro-estreno-bate-poder-aguilas-blindar-cima";  // De UrlPublica o NombreArchivoHTML
 $og_site_name = OG_SITE_NAME;  // De [HEAD] OgSiteName (fijo en config)
 $twitter_card = "summary_large_image";  // De [HEAD] TwitterCard (fijo)
 $twitter_title = "Andrés Chaparro, el bate de poder que Águilas suma para blindar la cima";  // De [HEAD] TituloDocumento
 $twitter_description = "Andrés Chaparro se incorpora sin restricciones a Águilas como bate de poder en 1B/3B para reforzar la cima antes de La Chinita.";  // De [HEAD] MetaDescription
-$twitter_image = SITE_URL . "/assets/img/andres-chaparro-estreno-bate-poder-aguilas-blindar-cima.jpg";  // De [HEAD] TwitterImage (ajustar ruta)
+$twitter_image = rtrim(SITE_URL, '/') . "/assets/img/andres-chaparro-estreno-bate-poder-aguilas-blindar-cima.jpg";  // De [HEAD] TwitterImage (ajustar ruta)
 $page_description = "Andrés Chaparro se suma sin restricciones a Águilas del Zulia como bate de poder 1B/3B para blindar la cima antes de la Semana de La Chinita.";  // De [HEAD] MetaDescription
 $page_author = "Redacción Meridiano";  // De [HEAD] AutorMeta
 
@@ -21,7 +21,7 @@ $post_title = "Andrés Chaparro adelanta su estreno: el bate de poder que Águil
 $post_subtitle = "El Novato del Año 2023–24 se incorpora sin restricciones a Águilas del Zulia como bate de poder en 1B/3B justo antes de la Semana de La Chinita para reforzar la cima.";  // De [CABECERA_VISUAL] SubtituloVisible
 $post_author = "Redacción Meridiano";  // De [CABECERA_VISUAL] AutorVisible
 $post_date = "17 de noviembre de 2025";  // De [CABECERA_VISUAL] FechaVisible
-$masthead_bg = SITE_URL . "/assets/img/post-bg.jpg";  // De [CABECERA_VISUAL] ImagenFondo (ajustar ruta)
+$masthead_bg = rtrim(SITE_URL, '/') . "/assets/img/post-bg.jpg";  // De [CABECERA_VISUAL] ImagenFondo (ajustar ruta)
 
 // [CATEGORIAS] y [ETIQUETAS] - Categorización del post
 $category = "Venezuela";  // De [CATEGORIAS] (tomar la primera categoría)

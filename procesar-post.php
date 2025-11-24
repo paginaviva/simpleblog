@@ -191,13 +191,13 @@ include '../config.php';
 \$og_type = \"article\";
 \$og_title = " . var_export($titulo_documento, true) . ";
 \$og_description = " . var_export($meta_description, true) . ";
-\$og_image = SITE_URL . \"/assets/img/" . htmlspecialchars($og_image_nombre) . "\";
-\$og_url = SITE_URL . \"/post/" . htmlspecialchars($nombre_archivo_php) . "\";
+\$og_image = rtrim(SITE_URL, '/') . '/assets/img/" . htmlspecialchars($og_image_nombre) . "';
+\$og_url = rtrim(SITE_URL, '/') . '/post/" . htmlspecialchars($nombre_archivo_php) . "';
 \$og_site_name = OG_SITE_NAME;
 \$twitter_card = \"summary_large_image\";
 \$twitter_title = " . var_export($twitter_title, true) . ";
 \$twitter_description = " . var_export($twitter_description, true) . ";
-\$twitter_image = SITE_URL . \"/assets/img/" . htmlspecialchars($twitter_image_nombre) . "\";
+\$twitter_image = rtrim(SITE_URL, '/') . '/assets/img/" . htmlspecialchars($twitter_image_nombre) . "';
 \$page_description = " . var_export($meta_description, true) . ";
 \$page_author = " . var_export($autor_meta, true) . ";
 
@@ -206,7 +206,8 @@ include '../config.php';
 \$post_subtitle = " . var_export($subtitulo_visible, true) . ";
 \$post_author = " . var_export($autor_visible, true) . ";
 \$post_date = " . var_export($fecha_visible, true) . ";
-\$masthead_bg = SITE_URL . \"/assets/img/" . htmlspecialchars($imagen_fondo) . "\";
+\$masthead_bg = rtrim(SITE_URL, '/') . '/assets/img/" . htmlspecialchars($imagen_fondo) . "';
+
 
 // [CATEGORIAS] y [ETIQUETAS] - Categorización del post
 \$category = " . var_export($category, true) . ";
@@ -291,7 +292,7 @@ if ($output === null) {
 // ============ REDIRIGIR AL POST CREADO ============
 
 // Construir URL del post
-$url_post = SITE_URL . "/post/" . urlencode($nombre_archivo_php);
+$url_post = rtrim(SITE_URL, '/') . '/post/' . urlencode($nombre_archivo_php);
 
 header('Location: ' . $url_post);
 exit;

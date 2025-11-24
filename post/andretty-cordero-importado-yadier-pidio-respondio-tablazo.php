@@ -6,13 +6,13 @@ $page_title = "Andretty Cordero, el importado que Yadier pidió… y que respond
 $og_type = "article";  // De [HEAD] OgType (fijo)
 $og_title = "Andretty Cordero, el importado que Yadier pidió… y que respondió con un tablazo";  // De [HEAD] TituloDocumento
 $og_description = "Andretty Cordero debutó con jonrón para reforzar el medio del orden de Magallanes y darle a Yadier Molina el bate de impacto que había pedido.";  // De [HEAD] MetaDescription
-$og_image = SITE_URL . "/assets/img/andretty-cordero-importado-yadier-pidio-respondio-tablazo.jpg";  // De [HEAD] OgImage (ajustar ruta)
-$og_url = "https://www.meridiano.com/andretty-cordero-importado-yadier-pidio-respondio-tablazo";  // De UrlPublica o NombreArchivoHTML
+$og_image = rtrim(SITE_URL, '/') . "/assets/img/andretty-cordero-importado-yadier-pidio-respondio-tablazo.jpg";  // De [HEAD] OgImage (ajustar ruta)
+$og_url = "https://www.meridiano.com/post/andretty-cordero-importado-yadier-pidio-respondio-tablazo";  // De UrlPublica o NombreArchivoHTML
 $og_site_name = OG_SITE_NAME;  // De [HEAD] OgSiteName (fijo en config)
 $twitter_card = "summary_large_image";  // De [HEAD] TwitterCard (fijo)
 $twitter_title = "Andretty Cordero debutó con jonrón pedido por Yadier Molina";  // De [HEAD] TituloDocumento
 $twitter_description = "Andretty Cordero respondió al pedido de Yadier Molina con jonrón en su primer turno y se perfila como bate de impacto en el medio del orden turco.";  // De [HEAD] MetaDescription
-$twitter_image = SITE_URL . "/assets/img/andretty-cordero-importado-yadier-pidio-respondio-tablazo.jpg";  // De [HEAD] TwitterImage (ajustar ruta)
+$twitter_image = rtrim(SITE_URL, '/') . "/assets/img/andretty-cordero-importado-yadier-pidio-respondio-tablazo.jpg";  // De [HEAD] TwitterImage (ajustar ruta)
 $page_description = "Andretty Cordero debutó con jonrón para reforzar el medio del orden de Magallanes y darle a Yadier Molina el bate de impacto que había pedido.";  // De [HEAD] MetaDescription
 $page_author = "Redacción Meridiano";  // De [HEAD] AutorMeta
 
@@ -21,7 +21,7 @@ $post_title = "Andretty Cordero, el importado que Yadier pidió… y que respond
 $post_subtitle = "El dominicano respondió al pedido de Yadier Molina con jonrón en su primer turno y se perfila como bate de impacto en el medio del orden de Magallanes.";  // De [CABECERA_VISUAL] SubtituloVisible
 $post_author = "Redacción Meridiano";  // De [CABECERA_VISUAL] AutorVisible
 $post_date = "14 de noviembre de 2025";  // De [CABECERA_VISUAL] FechaVisible
-$masthead_bg = SITE_URL . "/assets/img/post-bg.jpg";  // De [CABECERA_VISUAL] ImagenFondo (ajustar ruta)
+$masthead_bg = rtrim(SITE_URL, '/') . "/assets/img/post-bg.jpg";  // De [CABECERA_VISUAL] ImagenFondo (ajustar ruta)
 
 // [CATEGORIAS] y [ETIQUETAS] - Categorización del post
 $category = "Venezuela";  // De [CATEGORIAS] (tomar la primera categoría)

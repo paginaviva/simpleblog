@@ -6,13 +6,13 @@ $page_title = 'Festival de batazos en Puerto La Cruz: Tiburones se lleva la vict
 $og_type = "article";
 $og_title = 'Festival de batazos en Puerto La Cruz: Tiburones se lleva la victoria 18-15 en un juego histórico contra Caribes';
 $og_description = 'Tiburones de La Guaira vence a Caribes de Anzoátegui 18-15 en un juego de 33 carreras, lleno de jonrones y un regreso triunfal de Marco Davalillo.';
-$og_image = SITE_URL . "/assets/img/festival-batazos-puerto-la-cruz-tiburones-victoria-historica-caribes.jpg";
-$og_url = SITE_URL . "/post/festival-batazos-puerto-la-cruz-tiburones-victoria-historica-caribes.php";
+$og_image = rtrim(SITE_URL, '/') . "/assets/img/festival-batazos-puerto-la-cruz-tiburones-victoria-historica-caribes.jpg";
+$og_url = rtrim(SITE_URL, '/') . "/post/festival-batazos-puerto-la-cruz-tiburones-victoria-historica-caribes.php";
 $og_site_name = OG_SITE_NAME;
 $twitter_card = "summary_large_image";
 $twitter_title = 'Festival de batazos en Puerto La Cruz: Tiburones se lleva la victoria 18-15';
 $twitter_description = 'Tiburones de La Guaira vence a Caribes en un épico juego histórico de 33 carreras, destacando el regreso de Marco Davalillo.';
-$twitter_image = SITE_URL . "/assets/img/festival-batazos-puerto-la-cruz-tiburones-victoria-historica-caribes.jpg";
+$twitter_image = rtrim(SITE_URL, '/') . "/assets/img/festival-batazos-puerto-la-cruz-tiburones-victoria-historica-caribes.jpg";
 $page_description = 'Tiburones de La Guaira vence a Caribes de Anzoátegui 18-15 en un juego de 33 carreras, lleno de jonrones y un regreso triunfal de Marco Davalillo.';
 $page_author = 'Redacción Meridiano';
 
@@ -21,7 +21,7 @@ $post_title = 'Festival de batazos en Puerto La Cruz: Tiburones se lleva la vict
 $post_subtitle = 'Una noche histórica llena de jonrones y emoción, con un juego de 33 carreras que se convertirá en uno de los más recordados de la temporada.';
 $post_author = 'Redacción Meridiano';
 $post_date = '17 de noviembre de 2025';
-$masthead_bg = SITE_URL . "/assets/img/assets/img/post-bg.jpg";
+$masthead_bg = rtrim(SITE_URL, '/') . "/assets/img/assets/img/post-bg.jpg";
 
 // [CATEGORIAS] y [ETIQUETAS] - Categorización del post
 $category = 'Venezuela';

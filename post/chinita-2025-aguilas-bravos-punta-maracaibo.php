@@ -6,13 +6,13 @@ $page_title = 'La Chinita 2025: Águilas y Bravos se juegan algo más que la pun
 $og_type = "article";
 $og_title = 'La Chinita 2025: Águilas y Bravos se juegan algo más que la punta en Maracaibo';
 $og_description = 'Águilas y Bravos chocan en el Juego de la Chinita 2025, duelo de tradición y liderato en un Luis Aparicio lleno y con la cima de la LVBP en juego.';
-$og_image = SITE_URL . "/assets/img/chinita-2025-aguilas-bravos-punta-maracaibo.jpg)";
-$og_url = SITE_URL . "/post/chinita-2025-aguilas-bravos-punta-maracaibo.php";
+$og_image = rtrim(SITE_URL, '/') . "/assets/img/chinita-2025-aguilas-bravos-punta-maracaibo.jpg";
+$og_url = rtrim(SITE_URL, '/') . "/post/chinita-2025-aguilas-bravos-punta-maracaibo.php";
 $og_site_name = OG_SITE_NAME;
 $twitter_card = "summary_large_image";
 $twitter_title = 'La Chinita 2025: Águilas vs Bravos por algo más que la punta';
 $twitter_description = 'Juego de la Chinita 2025 en Maracaibo: Águilas defienden casa, fecha y liderato ante unos Bravos contendores en una LVBP apretada.';
-$twitter_image = SITE_URL . "/assets/img/chinita-2025-aguilas-bravos-punta-maracaibo.jpg)";
+$twitter_image = rtrim(SITE_URL, '/') . "/assets/img/chinita-2025-aguilas-bravos-punta-maracaibo.jpg";
 $page_description = 'Águilas y Bravos chocan en el Juego de la Chinita 2025, duelo de tradición y liderato en un Luis Aparicio lleno y con la cima de la LVBP en juego.';
 $page_author = 'Redacción Meridiano';
 
@@ -21,7 +21,7 @@ $post_title = 'La Chinita 2025: Águilas y Bravos se juegan algo más que la pun
 $post_subtitle = 'El Juego de la Chinita cruza tradición y tabla: Águilas defienden casa y liderato ante unos Bravos que llegan en modo contendiente al Luis Aparicio.';
 $post_author = 'Redacción Meridiano';
 $post_date = '18 de noviembre de 2025';
-$masthead_bg = SITE_URL . "/assets/img/assets/img/post-bg.jpg";
+$masthead_bg = rtrim(SITE_URL, '/') . "/assets/img/assets/img/post-bg.jpg";
 
 // [CATEGORIAS] y [ETIQUETAS] - Categorización del post
 $category = 'Venezuela';

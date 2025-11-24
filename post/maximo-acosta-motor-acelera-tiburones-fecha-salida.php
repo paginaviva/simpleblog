@@ -6,13 +6,13 @@ $page_title = "Máximo Acosta, el motor que acelera a Tiburones… y que ya pone
 $og_type = "article";  // De [HEAD] OgType (fijo)
 $og_title = "Máximo Acosta, el motor que acelera a Tiburones… y que ya pone fecha de salida";  // De [HEAD] TituloDocumento
 $og_description = "Máximo Acosta, campocorto eléctrico de Tiburones, vive su última semana en la LVBP entre impacto ofensivo y una salida marcada por lo familiar.";  // De [HEAD] MetaDescription
-$og_image = SITE_URL . "/assets/img/maximo-acosta-motor-acelera-tiburones-fecha-salida.jpg";  // De [HEAD] OgImage (ajustar ruta)
-$og_url = "https://www.meridiano.com/maximo-acosta-motor-acelera-tiburones-fecha-salida";  // De [HEAD] OgUrl
+$og_image = rtrim(SITE_URL, '/') . "/assets/img/maximo-acosta-motor-acelera-tiburones-fecha-salida.jpg";  // De [HEAD] OgImage (ajustar ruta)
+$og_url = "https://www.meridiano.com/post/maximo-acosta-motor-acelera-tiburones-fecha-salida";  // De [HEAD] OgUrl
 $og_site_name = OG_SITE_NAME;  // De [HEAD] OgSiteName (fijo en config)
 $twitter_card = "summary_large_image";  // De [HEAD] TwitterCard (fijo)
 $twitter_title = "Máximo Acosta, el motor que acelera a Tiburones… y que ya pone fecha de salida";  // De [HEAD] TituloDocumento
 $twitter_description = "Máximo Acosta, campocorto eléctrico de Tiburones, vive su última semana en la LVBP entre impacto ofensivo y una salida marcada por lo familiar.";  // De [HEAD] MetaDescription
-$twitter_image = SITE_URL . "/assets/img/maximo-acosta-motor-acelera-tiburones-fecha-salida.jpg";  // De [HEAD] TwitterImage (ajustar ruta)
+$twitter_image = rtrim(SITE_URL, '/') . "/assets/img/maximo-acosta-motor-acelera-tiburones-fecha-salida.jpg";  // De [HEAD] TwitterImage (ajustar ruta)
 $page_description = "Máximo Acosta, campocorto eléctrico de Tiburones, vive su última semana en la LVBP entre impacto ofensivo y una salida marcada por lo familiar.";  // De [HEAD] MetaDescription
 $page_author = "Redacción Meridiano";  // De [HEAD] AutorMeta
 
@@ -21,7 +21,7 @@ $post_title = "Máximo Acosta, el motor que acelera a Tiburones… y que ya pone
 $post_subtitle = "El campocorto de Tiburones de La Guaira vive una última semana de alto impacto en la LVBP antes de adelantar su salida por motivos familiares y de visa.";  // De [CABECERA_VISUAL] SubtituloVisible
 $post_author = "Redacción Meridiano";  // De [CABECERA_VISUAL] AutorVisible
 $post_date = "13 de noviembre de 2025";  // De [CABECERA_VISUAL] FechaVisible
-$masthead_bg = SITE_URL . "/assets/img/post-bg.jpg";  // De [CABECERA_VISUAL] ImagenFondo (ajustar ruta)
+$masthead_bg = rtrim(SITE_URL, '/') . "/assets/img/post-bg.jpg";  // De [CABECERA_VISUAL] ImagenFondo (ajustar ruta)
 
 // [CATEGORIAS] y [ETIQUETAS] - Categorización del post
 $category = "Venezuela";  // De [CATEGORIAS] (tomar la primera categoría)

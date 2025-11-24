@@ -6,13 +6,13 @@ $page_title = "Clásicos que mueven la aguja: la noche en que Sardiñas volteó 
 $og_type = "article";  // De [HEAD] OgType (fijo)
 $og_title = "Clásicos que mueven la aguja: la noche en que Sardiñas volteó el tablero y la cima se apretó";  // De [HEAD] TituloDocumento
 $og_description = "Luis Sardiñas volteó el Clásico Caracas–Magallanes con un jonrón en el 9.º, mientras Lara y Zulia apretaron una cima de la LVBP que ya se siente de enero.";  // De [HEAD] MetaDescription
-$og_image = SITE_URL . "/assets/img/clasicos-mueven-aguja-noche-sardinas-volteo-tablero-cima-apreto.jpg";  // De [HEAD] OgImage (ajustar ruta)
-$og_url = SITE_URL . "/post/clasicos-mueven-aguja-noche-sardinas-volteo-tablero-cima-apreto.html";  // De UrlPublica o NombreArchivoHTML
+$og_image = rtrim(SITE_URL, '/') . "/assets/img/clasicos-mueven-aguja-noche-sardinas-volteo-tablero-cima-apreto.jpg";  // De [HEAD] OgImage (ajustar ruta)
+$og_url = rtrim(SITE_URL, '/') . "/post/clasicos-mueven-aguja-noche-sardinas-volteo-tablero-cima-apreto.html";  // De UrlPublica o NombreArchivoHTML
 $og_site_name = OG_SITE_NAME;  // De [HEAD] OgSiteName (fijo en config)
 $twitter_card = "summary_large_image";  // De [HEAD] TwitterCard (fijo)
 $twitter_title = "Clásicos que mueven la aguja: la noche en que Sardiñas volteó el tablero y la cima se apretó";  // De [HEAD] TituloDocumento
 $twitter_description = "Luis Sardiñas volteó el Clásico Caracas–Magallanes con un jonrón en el 9.º, mientras Lara y Zulia apretaron una cima de la LVBP que ya se siente de enero.";  // De [HEAD] MetaDescription
-$twitter_image = SITE_URL . "/assets/img/clasicos-mueven-aguja-noche-sardinas-volteo-tablero-cima-apreto.jpg";  // De [HEAD] TwitterImage (ajustar ruta)
+$twitter_image = rtrim(SITE_URL, '/') . "/assets/img/clasicos-mueven-aguja-noche-sardinas-volteo-tablero-cima-apreto.jpg";  // De [HEAD] TwitterImage (ajustar ruta)
 $page_description = "Luis Sardiñas volteó el Clásico Caracas–Magallanes con un jonrón en el 9.º, mientras Lara y Zulia apretaron una cima de la LVBP que ya se siente de enero.";  // De [HEAD] MetaDescription
 $page_author = "Redacción Meridiano";  // De [HEAD] AutorMeta
 
@@ -21,7 +21,7 @@ $post_title = "Clásicos que mueven la aguja: la noche en que Sardiñas volteó 
 $post_subtitle = "Un jonrón de Luis Sardiñas en el 9.º inning volteó el Clásico Caracas–Magallanes y dejó la cima de la LVBP apretada, con Zulia respirando en la nuca.";  // De [CABECERA_VISUAL] SubtituloVisible
 $post_author = "Redacción Meridiano";  // De [CABECERA_VISUAL] AutorVisible
 $post_date = "14 de noviembre de 2025";  // De [CABECERA_VISUAL] FechaVisible
-$masthead_bg = SITE_URL . "/assets/img/post-bg.jpg";  // De [CABECERA_VISUAL] ImagenFondo (ajustar ruta)
+$masthead_bg = rtrim(SITE_URL, '/') . "/assets/img/post-bg.jpg";  // De [CABECERA_VISUAL] ImagenFondo (ajustar ruta)
 
 // [CATEGORIAS] y [ETIQUETAS] - Categorización del post
 $category = "Venezuela";  // De [CATEGORIAS] (tomar la primera categoría)

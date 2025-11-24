@@ -7,6 +7,8 @@
         <meta name="description" content="<?php echo $page_description ?? 'Descripción del sitio'; ?>" />
         <meta name="author" content="<?php echo $page_author ?? 'Autor'; ?>" />
         <title><?php echo $page_title; ?></title>
+        <!-- Canonical URL -->
+        <link rel="canonical" href="<?php echo $og_url ?? SITE_URL; ?>">
         <!-- Open Graph -->
         <meta property="og:type" content="<?php echo $og_type ?? 'website'; ?>">
         <meta property="og:title" content="<?php echo $og_title ?? $page_title; ?>">

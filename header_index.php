@@ -7,6 +7,8 @@
         <meta name="description" content="Meridiano Blog es un sitio dedicado al análisis del béisbol del Caribe y de las Grandes Ligas, con énfasis en la Liga Venezolana de Béisbol Profesional y otras ligas invernales." />
         <meta name="author" content="" />
         <title>Meridiano Blog · Análisis de béisbol de Venezuela y el Caribe</title>
+        <!-- Canonical URL -->
+        <link rel="canonical" href="<?php echo SITE_URL; ?>">
         <!-- Open Graph -->
         <meta property="og:type" content="website">
         <meta property="og:title" content="Meridiano Blog · Análisis de béisbol de Venezuela y el Caribe">

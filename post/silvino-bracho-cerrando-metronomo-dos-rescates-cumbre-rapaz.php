@@ -6,13 +6,13 @@ $page_title = 'Silvino Bracho, cerrando con metrónomo: a dos rescates de la cum
 $og_type = "article";
 $og_title = 'Silvino Bracho, cerrando con metrónomo: a dos rescates de la cumbre rapaz';
 $og_description = 'Silvino Bracho llega a seis salvados, se instala en el top-13 histórico de la LVBP y queda a dos rescates del récord de Águilas del Zulia.';
-$og_image = SITE_URL . "/assets/img/silvino-bracho-cerrando-metronomo-dos-rescates-cumbre-rapaz.jpg)";
-$og_url = SITE_URL . "/post/silvino-bracho-cerrando-metronomo-dos-rescates-cumbre-rapaz.php";
+$og_image = rtrim(SITE_URL, '/') . "/assets/img/silvino-bracho-cerrando-metronomo-dos-rescates-cumbre-rapaz.jpg";
+$og_url = rtrim(SITE_URL, '/') . "/post/silvino-bracho-cerrando-metronomo-dos-rescates-cumbre-rapaz.php";
 $og_site_name = OG_SITE_NAME;
 $twitter_card = "summary_large_image";
 $twitter_title = 'Silvino Bracho, metrónomo del noveno a dos rescates del récord';
 $twitter_description = 'Silvino Bracho suma seis salvados, entra al top-13 histórico de la LVBP y se coloca a dos rescates del récord zuliano en plena pelea por la cima.';
-$twitter_image = SITE_URL . "/assets/img/silvino-bracho-cerrando-metronomo-dos-rescates-cumbre-rapaz.jpg)";
+$twitter_image = rtrim(SITE_URL, '/') . "/assets/img/silvino-bracho-cerrando-metronomo-dos-rescates-cumbre-rapaz.jpg";
 $page_description = 'Silvino Bracho llega a seis salvados, se instala en el top-13 histórico de la LVBP y queda a dos rescates del récord de Águilas del Zulia.';
 $page_author = 'Redacción Meridiano';
 
@@ -21,7 +21,7 @@ $post_title = 'Silvino Bracho, cerrando con metrónomo: a dos rescates de la cum
 $post_subtitle = 'El cerrador rapaz llegó a seis salvados con un cierre de cinco pitcheos, se metió en el top-13 histórico de la LVBP y quedó a dos rescates del récord de Águilas.';
 $post_author = 'Redacción Meridiano';
 $post_date = '17 de noviembre de 2025';
-$masthead_bg = SITE_URL . "/assets/img/assets/img/post-bg.jpg";
+$masthead_bg = rtrim(SITE_URL, '/') . "/assets/img/assets/img/post-bg.jpg";
 
 // [CATEGORIAS] y [ETIQUETAS] - Categorización del post
 $category = 'Venezuela';

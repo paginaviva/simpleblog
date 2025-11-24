@@ -6,13 +6,13 @@ $page_title = 'Águilas vencen a Bravos 4-3 en Maracaibo: Eybersson Polanco se l
 $og_type = "article";
 $og_title = 'Águilas vencen a Bravos 4-3 en Maracaibo: Eybersson Polanco se lleva la victoria';
 $og_description = 'Águilas del Zulia se imponen 4-3 sobre Bravos de Margarita, con Eybersson Polanco como ganador, consolidando su liderazgo en la LVBP.';
-$og_image = SITE_URL . "/assets/img/aguilas-vencen-a-bravos-4-3-en-maracaibo-eybersson-polanco-se-lleva-la-victoria.jpg";
-$og_url = SITE_URL . "/post/aguilas-vencen-a-bravos-4-3-en-maracaibo-eybersson-polanco-se-lleva-la-victoria.php";
+$og_image = rtrim(SITE_URL, '/') . "/assets/img/aguilas-vencen-a-bravos-4-3-en-maracaibo-eybersson-polanco-se-lleva-la-victoria.jpg";
+$og_url = rtrim(SITE_URL, '/') . "/post/aguilas-vencen-a-bravos-4-3-en-maracaibo-eybersson-polanco-se-lleva-la-victoria.php";
 $og_site_name = OG_SITE_NAME;
 $twitter_card = "summary_large_image";
 $twitter_title = 'Águilas vencen a Bravos 4-3 en Maracaibo: Eybersson Polanco se lleva la victoria';
 $twitter_description = 'Águilas del Zulia ganan 4-3 a Bravos, consolidando su liderato, con Polanco como ganador en un reñido duelo en Maracaibo.';
-$twitter_image = SITE_URL . "/assets/img/aguilas-vencen-a-bravos-4-3-en-maracaibo-eybersson-polanco-se-lleva-la-victoria.jpg";
+$twitter_image = rtrim(SITE_URL, '/') . "/assets/img/aguilas-vencen-a-bravos-4-3-en-maracaibo-eybersson-polanco-se-lleva-la-victoria.jpg";
 $page_description = 'Águilas del Zulia se imponen 4-3 sobre Bravos de Margarita, con Eybersson Polanco como ganador, consolidando su liderazgo en la LVBP.';
 $page_author = 'Redacción Meridiano';
 
@@ -21,7 +21,7 @@ $post_title = 'Águilas vencen a Bravos 4-3 en Maracaibo: Eybersson Polanco se l
 $post_subtitle = 'Águilas se consolidan como líderes en la LVBP tras una victoria ajustada sobre Bravos, con Polanco brillando en el relevo.';
 $post_author = 'Redacción Meridiano';
 $post_date = '17 de noviembre de 2025';
-$masthead_bg = SITE_URL . "/assets/img/assets/img/post-bg.jpg";
+$masthead_bg = rtrim(SITE_URL, '/') . "/assets/img/assets/img/post-bg.jpg";
 
 // [CATEGORIAS] y [ETIQUETAS] - Categorización del post
 $category = 'Venezuela';
